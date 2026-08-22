@@ -1,0 +1,164 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usetikzlibrary{arrows.meta,positioning}
+
+\hypersetup{colorlinks=true,linkcolor=blue!55!black,citecolor=blue!55!black,urlcolor=blue!55!black}
+\setlength{\emergencystretch}{2em}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\F}{\mathbb F}
+\newcommand{\cH}{\mathcal H}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\cB}{\mathcal B}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\wt}{\operatorname{wt}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Tr}{\operatorname{Tr}}
+
+\title{Complete Bounded Repair Ports:\\
+\large Transfer, Reliability, and Geometric Structure}
+\author{Tavis Rudd}
+\date{July 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+For a linear code and a distinguished coordinate, the complete bounded repair
+port records every dual recovery equation using at most a prescribed number
+of helpers.  Its support clutter says which helpers suffice, its normalized
+coefficients retain the represented decoder, and its Boolean success event
+governs reliability.  This extra coefficient data is substantial: for every
+proper MDS code, the minimum coefficient port at any distinguished coordinate
+reconstructs the represented code, although its support projection is the
+generic complete uniform clutter.
+
+We prove an exact weighted-functional transfer theorem for concatenation.
+In the fixed-inner linear regime, a pointed zero-functional cost is the
+persistent obstruction to copying a bounded port blockwise; every represented
+port below this threshold occurs on a positive-density designated coordinate
+class in an asymptotically good fixed-alphabet family.  We also derive exact
+deletion--contraction and pivotal identities, a bounded BEC EXIT hierarchy
+whose successive differences recover the distribution of the cheapest
+available repair radius, and a full-radius specialization of the Las Vergnas
+polynomial for
+$M\backslash x\to M/x$.  An explicit represented pair proves that this
+full-radius invariant does not determine the bounded-radius filtration.
+
+Characteristic-three examples exhibit both extremes: a completed
+twisted-cubic--axis code has two uniform exact matching/transversal rows and
+strict weighted transfer, while a quartic normal rational curve with its
+nucleus has a Steiner $S(3,4,q+1)$ port at the nucleus and a compulsory
+nucleus helper at every curve target.
+\end{abstract}
+
+\section{Introduction}
+
+Locality asks how many surviving symbols suffice to recover one unavailable
+coordinate.  Availability asks for many disjoint choices of helpers.  Both
+are standard in locally repairable codes
+\cite{GopalanEtAl2012,PamiesEtAl2013,LavrauwVanDeVoorde2019}, but neither
+describes the whole local failure event: two codes can have the same locality
+and matching number while their permitted repair sets overlap very
+differently.
+
+The natural pointed object is the family of \emph{all} bounded dual-support
+repairs.  We call it a complete bounded repair port.  Its matching number is
+disjoint availability, its transversal number minus one is worst-case helper
+failure tolerance, and its monotone Boolean function gives exact stochastic
+reliability.  The coefficient layer matters as well: a repair support comes
+from a scalar equation, and concatenation is controlled by the minimum cost
+of realizing the corresponding block functional rather than by support alone.
+
+For a target $x$, let $\cP_x^{(\leq r)}(C)$ be the dual words normalized by
+$w_x=1$ and supported on $x$ and at most $r$ helpers.  This coefficient port
+records the scalar recovery equations, not only their supports.
+
+\begin{theorem}[MDS coefficient-port reconstruction]
+\label{thm:mds-reconstruction}
+Let $C\leq\F_q^E$ be an $[n,k]_q$ MDS code with $1\leq k<n$, and let
+$x\in E$.  Then
+\[
+ \operatorname{span}\cP_x^{(\leq k)}(C)=C^\perp,
+ \qquad \rho_x(C)=k,
+\]
+where $\rho_x(C)$ is the least reconstruction radius.  The support projection
+of the minimum coefficient port is the complete $k$-uniform clutter on
+$E\setminus\{x\}$.
+\end{theorem}
+
+The support clutter in this theorem is generic: it is the same for every MDS
+code with these parameters.  The normalized coefficients nevertheless span
+the represented dual code.  The proof chooses minimum dual words with a common
+core of $k-1$ helpers and distinct private coordinates, producing a basis of
+$C^\perp$.  Thus the coefficient layer retains represented information that
+support-only locality discards.
+
+Figure~\ref{fig:transfer-spine} gives the proof spine in one view.  The exact
+transfer theorem concerns the first two port layers; reliability is then
+determined by the transported support layer.
+
+\input{figures/transfer-spine}
+
+The paper has six parts.  Section~\ref{sec:ports} fixes the complete pointed
+object and separates support, coefficient, and probability layers.
+Section~\ref{sec:transfer} gives exact and usable concatenation gates.
+Section~\ref{sec:realization} turns the pointed gate into a prescribed
+positive-density realization theorem.  Section~\ref{sec:reliability}
+develops reliability and bounded EXIT.  Section~\ref{sec:tutte} identifies the
+full-port polynomial as standard pointed-Tutte structure and isolates what the
+radius filtration adds.  Section~\ref{sec:flagships} compares cubic--axis and
+quartic--nucleus flagships.
+
+The asymptotic coding ingredients, reliability identities, and pointed-Tutte
+polynomial are classical.  We develop their
+exact organization around the complete bounded pointed object,
+together with the transfer boundary, prescribed-port consequence, and the
+two exact geometric port inventories.  We make no minimum-bandwidth claim,
+no full-MAP claim for a radius cutoff, and no threshold claim for harmonic
+closure.
+In the literature reviewed, we did not locate the exact complete-port
+confinement criterion or the two coordinatewise port inventories
+\cite{PamiesEtAl2013,LiuEtAl2022,GruicaEtAl2026,DavydovEtAl2021}; this is a
+bounded comparison, not a priority claim.
+
+\input{sections/01-complete-ports}
+\input{sections/02-confinement-transfer}
+\input{sections/03-positive-density}
+\input{sections/04-reliability-exit}
+\input{sections/05-pointed-tutte}
+\input{sections/06-geometric-flagships}
+\input{sections/08-conclusion}
+
+\appendix
+\input{sections/07-verification-provenance}
+
+\section*{AI assistance disclosure}
+
+This project was developed with extensive assistance from OpenAI Codex and
+Anthropic Claude. Under the author's direction, the systems assisted
+throughout with proof exploration, literature research, symbolic and finite
+computation, code and formal-proof development, verification, and manuscript
+drafting and revision. The author checked the resulting arguments,
+computations, code, and cited sources, reviewed and edited all AI-assisted
+material, and assumes responsibility for all content.
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

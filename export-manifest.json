@@ -1,0 +1,227 @@
+{
+  "excluded_path_count": 9,
+  "excluded_release_outputs": [],
+  "excluded_symlinks": [],
+  "exporter_blob": "bc16a3f02957af1342e19dfe7fad78e003d8c5dc",
+  "files": [
+    {
+      "bytes": 108,
+      "mode": "100644",
+      "path": ".gitignore",
+      "role": "export-support",
+      "sha256": "8aec252fe1e8e2a04924eeac30581deea8368b151c9e82d6601a1d6393be8b27",
+      "source_blob": null
+    },
+    {
+      "bytes": 1790,
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "5d362081bc27c53388797d8ce7b6c7d530b09744ebcf8427de2fa2af68bbdbfc",
+      "source_blob": "ead3e5b7ab4f370fc7e96d834efa5053a9222ba9"
+    },
+    {
+      "bytes": 1067,
+      "mode": "100644",
+      "path": "LICENSE",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "4e0707ba71e80441ab251d8a520456723b8747e3929fc9df17d831e3ee282b15",
+      "source_blob": "fd06a92d00e7fcdec4788fd7b9287e66eb8093b5"
+    },
+    {
+      "bytes": 702,
+      "mode": "100644",
+      "path": "Makefile",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "f05026d7455caa33f4ab58fc45b1e997f073cd1ccc9025a72af68de7d79c23c3",
+      "source_blob": "b1a9061efac1eb9ef1f591d802294bab8c9517b7"
+    },
+    {
+      "bytes": 302,
+      "mode": "100644",
+      "path": "PROVENANCE.md",
+      "role": "provenance",
+      "sha256": "cd425eae94bebe73175ed5289db11c2991c37ac931ca1df40cecc422aa6b2cdd",
+      "source_blob": null
+    },
+    {
+      "bytes": 2779,
+      "mode": "100644",
+      "path": "README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "e5ea883717bcf5ecb5aeb448286eea1297bca775f12e00970ee59c3df8f69c43",
+      "source_blob": "652a007b987e28086a4260103e52c383a34e06de"
+    },
+    {
+      "bytes": 184567,
+      "mode": "100644",
+      "path": "complete_repair_ports.pdf",
+      "rewrites": [],
+      "role": "release-output",
+      "sha256": "73a8148f5f553d8c985e4c6ac821414573c12a495dbd99483c2b61f29edbda45",
+      "source_blob": "fbe4c1cd8cb2936a166e64b222a7eb0c4fb75373"
+    },
+    {
+      "bytes": 7272,
+      "mode": "100644",
+      "path": "complete_repair_ports.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "cdb1a912a162a7018a0f8f82c24dbaa8501e49dd49f3258b8207c939ffd6dcf7",
+      "source_blob": "55b0256cf0857aad422140a0eaf74f212e280f2b"
+    },
+    {
+      "bytes": 1757,
+      "mode": "100644",
+      "path": "figures/transfer-spine.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "3f073638b3d1cd2fea62b2f7af1e2164b5e85ed6d49840dd2f0340a12b4a07a5",
+      "source_blob": "ed8c0b15e8f6809347fac5df1f605f48d1bef7a5"
+    },
+    {
+      "bytes": 567,
+      "mode": "100644",
+      "path": "flake.lock",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "9ae203c10f2e27ff1a11363a02ac43747d9766f8f17c975b5d825ed480d120cc",
+      "source_blob": "c06115a1e8e270fb2772ce0ef216d75ab95e492f"
+    },
+    {
+      "bytes": 657,
+      "mode": "100644",
+      "path": "flake.nix",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "7f155c39f25c86fcc4c44d8a8e8844e55f7d4309af4e84e3c8f42d72ae392632",
+      "source_blob": "5514bc06d378c0c3efcf8bf3fe8ff70d544321c5"
+    },
+    {
+      "bytes": 10005,
+      "mode": "100644",
+      "path": "refs.bib",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "2722a1839c5703f03301e6f24e21cf0be9c68c1702d5730adf3a813c6bc39650",
+      "source_blob": "4b580773ea000aa51972304677c30e094df4e118"
+    },
+    {
+      "bytes": 5142,
+      "mode": "100644",
+      "path": "sections/01-complete-ports.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "f109f7de572da8dd713b8186cb398a37870d9c757578210c170662d288b55759",
+      "source_blob": "521b885fa3ed6b35d49db4f447d6623142662868"
+    },
+    {
+      "bytes": 8453,
+      "mode": "100644",
+      "path": "sections/02-confinement-transfer.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "c79f359ffdc98d42aed533d631e1a12d8c593a220bde44a6d9d72de5c28945e9",
+      "source_blob": "ca78fd57b0027fa843eac605dce809367125becc"
+    },
+    {
+      "bytes": 8725,
+      "mode": "100644",
+      "path": "sections/03-positive-density.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "8ac90629209aea3fe5c8afa97b12ca22791c9f4df9b01b8ffd07e71e64293d7a",
+      "source_blob": "153317eb63d7a12b80816562ecec3961ede894e6"
+    },
+    {
+      "bytes": 4992,
+      "mode": "100644",
+      "path": "sections/04-reliability-exit.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "7914804a56b9b37c59c82b00a3ebd548d952e96a6647673aa00e69f935fc37eb",
+      "source_blob": "638ff3adf5297b42751bb5a8e43969409f4223ed"
+    },
+    {
+      "bytes": 6533,
+      "mode": "100644",
+      "path": "sections/05-pointed-tutte.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "4bd73b6aea235b6e02786e821958583ecb4b7a14eb7f1a73551a07295bee8a0e",
+      "source_blob": "f288b99b5159db9aede5161d56239b1743cc3f9f"
+    },
+    {
+      "bytes": 11411,
+      "mode": "100644",
+      "path": "sections/06-geometric-flagships.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "32da6520ea5862cab8d9470355b679524ce3cd6c9f38478bf24716be4ac07adc",
+      "source_blob": "a04369038bd73277e5b321d83d800235a3537946"
+    },
+    {
+      "bytes": 5875,
+      "mode": "100644",
+      "path": "sections/07-verification-provenance.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "000af4919a9f4ae8592a0b9833e48d7820194fcddbaf08afcca09c34b5197171",
+      "source_blob": "c65205ed087092c4ecebf893c32c2eb511f1f4c4"
+    },
+    {
+      "bytes": 1286,
+      "mode": "100644",
+      "path": "sections/08-conclusion.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "b9abf9b5cd4c6ec48c728740f58d17e46ff027d3e23ee03be5e9eb670926fff7",
+      "source_blob": "e3686d5a7d4c0884382c88f683a113ef691b8a0f"
+    },
+    {
+      "bytes": 1095,
+      "mode": "100644",
+      "path": "sections/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "7d08d375aa92361c53eeae015d52b3e39bc517fef5c54d128a9785d5325f92c4",
+      "source_blob": "84a9724e7563475706361ad640e9159f4f67fc72"
+    },
+    {
+      "bytes": 1612,
+      "mode": "100644",
+      "path": "verification/README.md",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "ed0eeb22725d95aa66c58bec0ac2048fa1c37079c70e39544114b319ddc91b50",
+      "source_blob": "0a4f6dc1a3c8a172b1aafb6a5b3267fb96e38904"
+    },
+    {
+      "bytes": 2146,
+      "mode": "100644",
+      "path": "verification/formal-boundary.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "17c71999a4f821ab31313cf12d7ced3bb584c791f7f49e796de90a1c547518c5",
+      "source_blob": "f5e2c5d6dd2350127125c8f203ca102a206e424f"
+    }
+  ],
+  "github": "tavisrudd/complete-repair-ports",
+  "main_sources": [
+    "complete_repair_ports.tex"
+  ],
+  "manifest_self_excluded": true,
+  "paper_ids": [
+    "complete_repair_ports"
+  ],
+  "paper_registry_sha256": "cc605b2084a87edab972aa2bdb1633eadc45e95592b27258ccdd0d628613609e",
+  "release_output_policy": "immutable-source",
+  "repository": "complete-repair-ports",
+  "repository_map_sha256": "6d780934fabc1a64bb0240fe05ff5f8a06969444be381a69c35174f6facec9f0",
+  "schema_version": 1,
+  "source_commit": "56c9eaaced0db24d5243e60d058e771bf3a34c62"
+}
