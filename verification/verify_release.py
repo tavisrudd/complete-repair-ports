@@ -24,7 +24,7 @@ PAPER = Path(__file__).resolve().parents[1]
 SOURCE = "complete_repair_ports.tex"
 PDF = PAPER / "complete_repair_ports.pdf"
 DETERMINISTIC_EPOCH = "1767225600"
-EXPECTED_PAGES = 22
+EXPECTED_PAGES = 23
 DOI = "10.5281/zenodo.22051904"
 FINITEGEOM_REPOSITORY = "https://github.com/tavisrudd/finitegeom"
 GATE = "RepairPorts.Gates.CompletePorts"
@@ -33,6 +33,9 @@ PUBLIC_FORMAL_MANIFEST = Path("trust/manifests/complete_ports.json")
 EXPECTED_AXIOMS = {"Classical.choice", "Quot.sound", "propext"}
 EXPECTED_CERTIFICATE_SHA256 = (
     "8096230e66f634c820ae7ec4bacd9b2493006782ff02b8be3a8c7e1caf80de07"
+)
+EXPECTED_MATCHED_CERTIFICATE_SHA256 = (
+    "16a378edc882a6dda7f5642c7d21bfa49913b45ef5409398de117897b19dd2b8"
 )
 HEX40 = re.compile(r"[0-9a-f]{40}")
 WARNING_RE = re.compile(
@@ -94,6 +97,8 @@ def public_text_files() -> list[Path]:
         PAPER / "verification" / "formal-boundary.json",
         PAPER / "verification" / "f7-seed.py",
         PAPER / "verification" / "f7-seed.json",
+        PAPER / "verification" / "matched-seed.py",
+        PAPER / "verification" / "matched-seed.json",
         PAPER / "verification" / "verify_release.py",
         *sorted((PAPER / "sections").glob("*.tex")),
         PAPER / "sections" / "README.md",
@@ -190,16 +195,33 @@ def check_metadata() -> dict[str, object]:
             encoding="utf-8"
         )
     )
+    provenance_tex = (PAPER / "sections" / "07-verification-provenance.tex").read_text(
+        encoding="utf-8"
+    )
     require(boundary.get("gate") == GATE, "formal gate name is stale")
     require(
         boundary.get("finitegeom_repository") == FINITEGEOM_REPOSITORY,
         "formal metadata must reference only the public finitegeom repository",
     )
-    for field in ("source_commit", "finitegeom_base_commit", "mathlib_rev"):
+    for field in (
+        "source_commit",
+        "finitegeom_base_commit",
+        "finitegeom_release_commit",
+        "mathlib_rev",
+    ):
         value = boundary.get(field)
         require(
             isinstance(value, str) and HEX40.fullmatch(value) is not None,
             f"formal metadata field {field} is not a 40-hex revision",
+        )
+    for field in (
+        "source_commit",
+        "finitegeom_base_commit",
+        "finitegeom_release_commit",
+    ):
+        require(
+            f"\\path{{{boundary[field]}}}" in provenance_tex,
+            f"manuscript provenance is stale for {field}",
         )
     require(
         boundary.get("closure_module_count") == 36,
@@ -255,6 +277,22 @@ def check_seed_replay() -> None:
         sha256(PAPER / "verification" / "f7-seed.json")
         == EXPECTED_CERTIFICATE_SHA256,
         "field-seven certificate hash drift",
+    )
+    completed = run(
+        [
+            "python3",
+            "verification/matched-seed.py",
+            "--check",
+            "verification/matched-seed.json",
+        ],
+        PAPER,
+    )
+    if completed.returncode != 0:
+        fail("matched-seed replay failed:\n" + (completed.stderr or completed.stdout))
+    require(
+        sha256(PAPER / "verification" / "matched-seed.json")
+        == EXPECTED_MATCHED_CERTIFICATE_SHA256,
+        "matched-seed certificate hash drift",
     )
 
 
