@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "f9952cca6ca3df50d7acdb3adc6696cf09d9f9fcf2afea3f2778d89d2cbffea6",
+      "sha256": "20a8c6fa00e3e527372eddccd64f4ad47b4f91fab3ecfd164e1b778c73a7e976",
       "source_blob": null
     },
     {
@@ -53,8 +53,8 @@
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "67d00292f7aae2f6c153c3811e356cda1d8d530a530596ac5c3c557b1c0cc7bd",
-      "source_blob": "282580fd8c9ba9b4ad7c11699b797994e5e128d1"
+      "sha256": "39bb4b17db6db6156c19a7e508202922147889479e4dac70f5730424d2edf87e",
+      "source_blob": "ab21136ed7ec2a35a9d0f6e452abb51599def860"
     },
     {
       "bytes": 206809,
@@ -251,8 +251,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "84e32b2f6184148d7d740796661c505b3930e956f7c3a7f4cca291f4afafdb4d",
-      "source_blob": "06af9df1315f89236db41d8cc286f673c896053c"
+      "sha256": "c5f0edf12623fbf3a938412fb932b4d6a7d16a04649d49041c072bde2152fa0e",
+      "source_blob": "a5c38d666e50fb74696df1ed44bd51fe2eda7b36"
     }
   ],
   "github": "tavisrudd/complete-repair-ports",
@@ -268,5 +268,5 @@
   "repository": "complete-repair-ports",
   "repository_map_sha256": "3e4d1fdaa2b00ebcf7153632b1c0eda21bbccd42027625a3475f23868ab87e86",
   "schema_version": 1,
-  "source_commit": "4cd32e1a78b009f76f44dbf130eb4ebbaa19675a"
+  "source_commit": "a3faa6b999ac1d02e9aeb78dd28402a5b323e2b0"
 }
