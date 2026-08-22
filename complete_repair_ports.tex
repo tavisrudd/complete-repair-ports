@@ -39,32 +39,29 @@
 \maketitle
 
 \begin{abstract}
-For a linear code and a distinguished coordinate, the complete bounded repair
-port records every dual recovery equation using at most a prescribed number
-of helpers.  Its support clutter says which helpers suffice, its normalized
-coefficients retain the represented decoder, and its Boolean success event
-governs reliability.  This extra coefficient data is substantial: for every
-proper MDS code, the minimum coefficient port at any distinguished coordinate
-reconstructs the represented code, although its support projection is the
-generic complete uniform clutter.
+For a linear code with a distinguished coordinate, the complete bounded
+repair port records every short dual recovery equation.  Its support clutter
+specifies the allowed helper sets, its normalized coefficients retain the
+represented decoder, and its Boolean event gives exact repair reliability.
+We prove an exact weighted-functional transfer theorem for concatenation and
+identify the persistent pointed obstruction.  Below that threshold, any
+represented bounded port occurs on a positive-density coordinate class in an
+asymptotically good fixed-alphabet family.
 
-We prove an exact weighted-functional transfer theorem for concatenation.
-In the fixed-inner linear regime, a pointed zero-functional cost is the
-persistent obstruction to copying a bounded port blockwise; every represented
-port below this threshold occurs on a positive-density designated coordinate
-class in an asymptotically good fixed-alphabet family.  We also derive exact
-deletion--contraction and pivotal identities, a bounded BEC EXIT hierarchy
-whose successive differences recover the distribution of the cheapest
-available repair radius, and a full-radius specialization of the Las Vergnas
-polynomial for
-$M\backslash x\to M/x$.  An explicit represented pair proves that this
-full-radius invariant does not determine the bounded-radius filtration.
+This transfer yields a matched asymptotic separation.  Two explicit
+$[7,4,3]_7$ inner codes have the same pointed rank-triple multiplicity
+enumerator (equivalently, the same full pointed-perspective polynomial) but
+radius-three reliabilities $2s^3-s^6$ and $2s^3-s^5$.  Using one common outer
+family gives two asymptotically good code families with identical length and
+dimension formulas, the same distance bound, and designated target classes
+of density $1/7$ carrying those distinct ports.  Thus full pointed-Tutte data
+at the seed does not control bounded stochastic behavior after
+positive-density realization.
 
-Characteristic-three examples exhibit both extremes: a completed
-twisted-cubic--axis code has two uniform exact matching/transversal rows and
-strict weighted transfer, while a quartic normal rational curve with its
-nucleus has a Steiner $S(3,4,q+1)$ port at the nucleus and a compulsory
-nucleus helper at every curve target.
+We also prove deletion--contraction and pivotal identities, a bounded BEC EXIT
+hierarchy whose differences recover the cheapest available repair radius,
+and MDS coefficient-port reconstruction.  Characteristic-three cubic--axis
+and quartic--nucleus examples exhibit exact geometric port structures.
 \end{abstract}
 
 \section{Introduction}
@@ -89,6 +86,38 @@ For a target $x$, let $\cP_x^{(\leq r)}(C)$ be the dual words normalized by
 $w_x=1$ and supported on $x$ and at most $r$ helpers.  This coefficient port
 records the scalar recovery equations, not only their supports.
 
+\begin{theorem}[Main theorem: exact transfer and separated realization]
+\label{thm:main}
+Let \(I\leq\F_q^E\) be a fixed represented \([m,k,d]_q\) inner code,
+identify its message space with \(L=\F_{q^k}\), let \(x\in E\) be a
+repairable target, and put
+\[
+ z_x(I)=\min\{\wt(u):u\in I^\perp,\ u_x\ne0\}+d(I^\perp).
+\]
+For any fixed radius \(r\) and any \(L\)-linear outer family whose dual distance
+tends to infinity, all sufficiently long concatenations confine every
+radius-\(r\) repair at a designated copy of \(x\) to its inner block if and
+only if \(r+1<z_x(I)\).  Whenever this inequality holds, the complete support
+and normalized coefficient ports are copied exactly in every block.  Choosing
+an asymptotically good outer family therefore realizes the prescribed port on
+a coordinate class of density \(1/|E|\) in an asymptotically good
+fixed-alphabet family.
+
+Moreover, there are two represented \([7,4,3]_7\) inner codes with the same
+pointed rank-triple multiplicity enumerator, locality three, and two minimum
+repairs, for which one common outer family gives matched length and dimension
+formulas and the same distance lower bound, while density-\(1/7\) target
+classes retain the distinct radius-three reliability laws
+\(2s^3-s^6\) and \(2s^3-s^5\).
+\end{theorem}
+
+The first paragraph is the exact confinement criterion of
+Theorems~\ref{thm:transfer} and~\ref{thm:prescribed}; the second is
+Theorem~\ref{thm:asymptotic-separation}.  The obstruction \(z_x(I)\) is the
+least pointed inner-dual word in the target block plus the least nonzero
+inner-dual word in another block.  Nonzero outer functionals eventually
+become too expensive, but this all-zero-functional obstruction persists.
+
 \begin{theorem}[MDS coefficient-port reconstruction]
 \label{thm:mds-reconstruction}
 Let $C\leq\F_q^E$ be an $[n,k]_q$ MDS code with $1\leq k<n$, and let
@@ -108,6 +137,17 @@ the represented dual code.  The proof chooses minimum dual words with a common
 core of $k-1$ helpers and distinct private coordinates, producing a basis of
 $C^\perp$.  Thus the coefficient layer retains represented information that
 support-only locality discards.
+
+Our main separation shows that this distinction survives asymptotically.
+Two represented sparse-paving seeds have identical pointed rank-triple
+multiplicity enumerators,
+but the two target circuit-hyperplanes are disjoint off the target in one
+seed and meet in one helper in the other.  Exact transfer by a common outer
+family copies these radius-three ports onto coordinate classes of density
+$1/7$, preserving matched global parameter bounds while giving different
+reliability and bounded-EXIT curves.  This is a structural consequence of
+the circuit intersections; the finite matrix check only certifies the two
+representations.
 
 Figure~\ref{fig:transfer-spine} gives the proof spine in one view.  The exact
 transfer theorem concerns the first two port layers; reliability is then
