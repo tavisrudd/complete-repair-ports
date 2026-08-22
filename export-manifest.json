@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "cd425eae94bebe73175ed5289db11c2991c37ac931ca1df40cecc422aa6b2cdd",
+      "sha256": "73985aa634643401dd9fea6c4b8f34ce890bda008546611d2188c3076821b4bd",
       "source_blob": null
     },
     {
@@ -57,13 +57,13 @@
       "source_blob": "652a007b987e28086a4260103e52c383a34e06de"
     },
     {
-      "bytes": 184567,
+      "bytes": 184647,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "73a8148f5f553d8c985e4c6ac821414573c12a495dbd99483c2b61f29edbda45",
-      "source_blob": "fbe4c1cd8cb2936a166e64b222a7eb0c4fb75373"
+      "sha256": "7cad98e6c524956d186bfb034632112cb5b8a22aba295ed503e7689bd57777d2",
+      "source_blob": "348d85233b2df7300250ff11265381eea1247181"
     },
     {
       "bytes": 7272,
@@ -75,13 +75,13 @@
       "source_blob": "55b0256cf0857aad422140a0eaf74f212e280f2b"
     },
     {
-      "bytes": 1757,
+      "bytes": 1813,
       "mode": "100644",
       "path": "figures/transfer-spine.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3f073638b3d1cd2fea62b2f7af1e2164b5e85ed6d49840dd2f0340a12b4a07a5",
-      "source_blob": "ed8c0b15e8f6809347fac5df1f605f48d1bef7a5"
+      "sha256": "1f77fa312ae12e3eabed3c6f838fd8afacdaa83f60d29a244050aaba1ef0b97c",
+      "source_blob": "9cdc50089cbb34107a68de41e39d21a2389d9353"
     },
     {
       "bytes": 567,
@@ -223,5 +223,5 @@
   "repository": "complete-repair-ports",
   "repository_map_sha256": "6d780934fabc1a64bb0240fe05ff5f8a06969444be381a69c35174f6facec9f0",
   "schema_version": 1,
-  "source_commit": "56c9eaaced0db24d5243e60d058e771bf3a34c62"
+  "source_commit": "f3df332ffbae88d80e5223e81ba1721280e8838b"
 }
