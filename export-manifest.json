@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "02db90e54d2ea5e20ebe1e5004683a23a77fe8bd1ced101cc30ae47a1bb9b30e",
+      "sha256": "946813f8038581d8a6fc945ce3dfd5c14513ffcdb0fe4c87c94817d4c055727c",
       "source_blob": null
     },
     {
@@ -57,22 +57,22 @@
       "source_blob": "c29c0d1c1ccaa10522a391a252d927227d16270e"
     },
     {
-      "bytes": 227474,
+      "bytes": 228086,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "5479bc2ba9f2b124c03ccd0074b642de9a693f33ccdad239ccfa3bcee9bba697",
-      "source_blob": "ab9943114c401b1a68203baa0cb5b4f5c50660a4"
+      "sha256": "6859df9c0749c440d42060424b105f7fa03a8eb1e06e5f7462b228d73e89f791",
+      "source_blob": "ffda7139807be51bb4305e6bd98b2a9143b8a599"
     },
     {
-      "bytes": 8669,
+      "bytes": 8593,
       "mode": "100644",
       "path": "complete_repair_ports.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c158d793fb3a59f977879e4d3757910b121139e887b1689771c65dd9f826fe42",
-      "source_blob": "e8e927edd3bce40430b38e6494f842c24d94531b"
+      "sha256": "6d873440d1e20c82824207077adf8ff6dadbb9c3ae9ec0db3424d339b91d6e23",
+      "source_blob": "5249fa58b5662079cc479ff78608ae4aceeee35b"
     },
     {
       "bytes": 1816,
@@ -120,13 +120,13 @@
       "source_blob": "41b22d630c40163e5db17d092f2e9811c851ea2c"
     },
     {
-      "bytes": 8744,
+      "bytes": 9049,
       "mode": "100644",
       "path": "sections/02-confinement-transfer.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "2f2376f6013fa8ccb6805a6b3d83366432afd9cd8f2903eee1df3c358999a7e9",
-      "source_blob": "c3dfef62533ae21e0ee9527ab45cb0a6f9975b3b"
+      "sha256": "f98d733168d3aebc028808847afc4af27b75c73138cfb287389ca2e69dcf1748",
+      "source_blob": "c198cbe5ca75158cd8d2db4f67a922058cd4f4e7"
     },
     {
       "bytes": 8867,
@@ -156,13 +156,13 @@
       "source_blob": "b0ebee1e6958831aee5c8bc8a492b3cab9b212a8"
     },
     {
-      "bytes": 11984,
+      "bytes": 12202,
       "mode": "100644",
       "path": "sections/06-geometric-flagships.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "774d4a5ce5050154f288798c5515f24310d473f1ce9a0eb1092f669a0417ad01",
-      "source_blob": "faca126cde2e589c9db682366c72a726df998564"
+      "sha256": "51bcbb34b446b0a7a6f28157afeb6f69f2e83e695fdb1ccd13d635757f3dfae7",
+      "source_blob": "49a966a0614950cc5c4c5f57a0f679623f077f60"
     },
     {
       "bytes": 8793,
@@ -174,13 +174,13 @@
       "source_blob": "7fa671fa14339cc35323f5cdb769e46d4e2a49f5"
     },
     {
-      "bytes": 2197,
+      "bytes": 2058,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "cb2bd92cd440e55ce858ae7022b2276f56fe4d2959942301fcd2090b29c722ce",
-      "source_blob": "c3bd3c08d3f489f664f023e7cb1a638069b54190"
+      "sha256": "0a5b19b50ce2f61738c82ffd736e7f0f6a237e45e705688e65ff0925674dfa55",
+      "source_blob": "5b5cc0ebf20c1d90311c3af1287b9ea346d4ac62"
     },
     {
       "bytes": 1214,
@@ -268,5 +268,5 @@
   "repository": "complete-repair-ports",
   "repository_map_sha256": "b58ac61c524b0f923124defdf01266eb9de73b50c8df8500e886e53fbfa37dfc",
   "schema_version": 1,
-  "source_commit": "d73ee8fde74b105c73f0dd2c62ee029e4906cc7f"
+  "source_commit": "af34473b1c92b3f9d7f65dfd30e9af439a102006"
 }
