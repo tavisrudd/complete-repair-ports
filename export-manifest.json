@@ -1,5 +1,5 @@
 {
-  "excluded_path_count": 9,
+  "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
   "exporter_blob": "bc16a3f02957af1342e19dfe7fad78e003d8c5dc",
@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2040,
+      "bytes": 1967,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "26a2d1be3f030765621f936bcc183be91b547d90b6cc69f6f890a2ea89ad1983",
-      "source_blob": "48aa248257d3ee778a0013132e6a1450d2368061"
+      "sha256": "fbab2c2fb1e99678b1b8069a819c5da7c05694999b367116bf7e433cb5660704",
+      "source_blob": "029afc9d42cc4f7df735faef66397050672ebfc5"
     },
     {
       "bytes": 1067,
@@ -31,57 +31,57 @@
       "source_blob": "fd06a92d00e7fcdec4788fd7b9287e66eb8093b5"
     },
     {
-      "bytes": 1109,
+      "bytes": 847,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [],
       "role": "support",
-      "sha256": "833c6d8de862b9fbeeb2fd9b7db0951e1b4c7c01a8cf667f8c9c3c4f5d373ebe",
-      "source_blob": "88f0d4edd20d23a78b9edf71f19e4162bf9d8c03"
+      "sha256": "1418012422d7fcfc444d5bf754aee7dc7504b66f7c628f9522183208dee8467d",
+      "source_blob": "29a5ae212144620f5c33fdfd32a423bf60c6de53"
     },
     {
       "bytes": 302,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "946813f8038581d8a6fc945ce3dfd5c14513ffcdb0fe4c87c94817d4c055727c",
+      "sha256": "93f77f97294027b2db437fc83f6bc1751c2cbf616501175010c6e3e9d4e89cc2",
       "source_blob": null
     },
     {
-      "bytes": 7137,
+      "bytes": 4963,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "f0ef21662e3bcc33cb2fee24b0909e77065ced4f1544ff662f2dd8601a9d63f3",
-      "source_blob": "c29c0d1c1ccaa10522a391a252d927227d16270e"
+      "sha256": "1d1c19c760b0862fe9865c4b3541ef8d1163cbf862fe9027e9b053d75e3de7fa",
+      "source_blob": "46accc2efa4a8ce1263a4ddff239bba229958bc2"
     },
     {
-      "bytes": 228086,
+      "bytes": 7835,
+      "mode": "100644",
+      "path": "REVIEWER_GUIDE.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "1af037062e7c1078ae7c0918a970d6d043825025d43ac9aa8a49fc324983b8ca",
+      "source_blob": "22a6c5bdbc278bd475cfc5814ee3b3e2f5d6be1a"
+    },
+    {
+      "bytes": 176811,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "6859df9c0749c440d42060424b105f7fa03a8eb1e06e5f7462b228d73e89f791",
-      "source_blob": "ffda7139807be51bb4305e6bd98b2a9143b8a599"
+      "sha256": "4310ef67c29c5f5bbd87239c594cde1af7cd805375e836553bd95e62ce3b849a",
+      "source_blob": "9bcc6271dc524ff74127331d7707abca667d931c"
     },
     {
-      "bytes": 8593,
+      "bytes": 8802,
       "mode": "100644",
       "path": "complete_repair_ports.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6d873440d1e20c82824207077adf8ff6dadbb9c3ae9ec0db3424d339b91d6e23",
-      "source_blob": "5249fa58b5662079cc479ff78608ae4aceeee35b"
-    },
-    {
-      "bytes": 1816,
-      "mode": "100644",
-      "path": "figures/transfer-spine.tex",
-      "rewrites": [],
-      "role": "manuscript-source",
-      "sha256": "15cd56fa7f95720cfbaa299a41731c74336d47d6e09408da10a78cd729b3e85d",
-      "source_blob": "680a95bd1d2ffdb98acaedc3eb1a1657666ae347"
+      "sha256": "2d06ffc4deaf797253637478d8df98b11e92d2b4f18171c9d1073b57e25312f9",
+      "source_blob": "7a227785c9fb945309c34df091a4ebe1004c8974"
     },
     {
       "bytes": 567,
@@ -102,157 +102,256 @@
       "source_blob": "5514bc06d378c0c3efcf8bf3fe8ff70d544321c5"
     },
     {
-      "bytes": 10332,
+      "bytes": 997,
+      "mode": "100644",
+      "path": "formal-annotations.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "343d58f318711c7586d5b6509a794cf6ead62e34fd21222c8e5f7c92be0e21e2",
+      "source_blob": "ed1f4c3717339a49596116231df4899776019e13"
+    },
+    {
+      "bytes": 19,
+      "mode": "100644",
+      "path": "lean/.gitignore",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "d39a74499ec8964970ff1c56947761a5618ac3143d3b008d7eb35c976c504f02",
+      "source_blob": "67acf1593e2296fb8c45a35179816a8cd82c6693"
+    },
+    {
+      "bytes": 1348,
+      "mode": "100644",
+      "path": "lean/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "3f7f8125f987bbb9a6e7d848e703fa416ed06c7f3fa3b5e01928040b252d0d18",
+      "source_blob": "af5070dc6c013f431fc7ab9cbec85abe63290af2"
+    },
+    {
+      "bytes": 3976,
+      "mode": "100644",
+      "path": "lean/TavisRuddFiniteGeom/Papers/RecoveryStructures/AssociatedNestedCodePair.lean",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "e365999c935bbf355dd691cf4df056f56b137795b6dc274063309b75becc907a",
+      "source_blob": "b9fddfb257ac1103aa8e16376cf7ff5850579743"
+    },
+    {
+      "bytes": 342,
+      "mode": "100644",
+      "path": "lean/TavisRuddFiniteGeom/Papers/RecoveryStructures/PaperInterface.lean",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "0b6ef824e49537b786b4974cc953c398e24e43c6db1671a27ac4ad018abe1e92",
+      "source_blob": "1216bf1093d9dd0982524f75d12ed8523e39d1d8"
+    },
+    {
+      "bytes": 687,
+      "mode": "100644",
+      "path": "lean/TavisRuddFiniteGeom/Papers/RecoveryStructures/Verification/AxiomAudit.lean",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "05c5c62dfc1afec7117e250100dd0039d1b8c70671b06d11f98d63cae81ae797",
+      "source_blob": "7ac757a9e976b1ff206b508eac7d2e6f7523856c"
+    },
+    {
+      "bytes": 567,
+      "mode": "100644",
+      "path": "lean/flake.lock",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "df051f32ccae9c2d47351b9c6c9e03864d80bf3636a9718922b339cf869a94dd",
+      "source_blob": "16c1ef98aa65a10cb021d6b79a3efddb33752cc9"
+    },
+    {
+      "bytes": 785,
+      "mode": "100644",
+      "path": "lean/flake.nix",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "89605ca720ebc5a712d056cdcfe3a7ba86b183ed09bc18d83d47f346d1b481d0",
+      "source_blob": "af3cdb1bc8d576efa3b411c56b4410e1146b699e"
+    },
+    {
+      "bytes": 3169,
+      "mode": "100644",
+      "path": "lean/lake-manifest.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "357b0a5c3ca651b30872e46aaf9341f0ec4590d65831bee5767784a673125e1b",
+      "source_blob": "6db2c41906658cf9f7d30bf54f77d0aebd8b1141"
+    },
+    {
+      "bytes": 536,
+      "mode": "100644",
+      "path": "lean/lakefile.toml",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "388304b61687a574591078b30f1bb0e95e776a14c5db2f6309845b9a8c41098b",
+      "source_blob": "bb40c714286ba9ad4b5b6222498640b2a485c4d7"
+    },
+    {
+      "bytes": 29,
+      "mode": "100644",
+      "path": "lean/lean-toolchain",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "72681913b978b3f7c2f48229836771f736f6e97d833917726b2263afbc6108ed",
+      "source_blob": "2694eb767c1d5dc7ed415291f32eb95968bd1340"
+    },
+    {
+      "bytes": 8855,
+      "mode": "100644",
+      "path": "lean/verification/check_formal_artifact.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "730934f11cce24913b112a1571988b98846d1fe5ff77b3fc667dedea24117c3e",
+      "source_blob": "e85dfe7575c616ac5421848bafb92933af347954"
+    },
+    {
+      "bytes": 5625,
+      "mode": "100644",
+      "path": "lean/verification/claims.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "637e3895186deb20d17fb31d21aaeaeafc61ec53277703178ddc6fb92468a947",
+      "source_blob": "e44b0585f0cd79fd026239ea0ee9a8ebaa38e1c1"
+    },
+    {
+      "bytes": 506,
+      "mode": "100644",
+      "path": "lean/verification/expected_axioms.txt",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "92a68be3753c08371018fe125ea31033e247052c1381d441e889447db58bbbac",
+      "source_blob": "9f99babb29c38138aa68c8a8eae5c1caf9b61635"
+    },
+    {
+      "bytes": 12909,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "00e1cbaa785a018e8b0a5e62c3dc9687ef62b8417cf987bd82b5ca1dbdef77dc",
-      "source_blob": "f229b717cfd4c26246171d88191315e05a441083"
+      "sha256": "a8440e8914d8ecb8dca90905af481964b2455113d38c0d2902d3b4bd6a913b4b",
+      "source_blob": "3328a7ad694cf4fc02dccf5fe8b9f79b7eb13138"
     },
     {
-      "bytes": 5606,
+      "bytes": 4754,
       "mode": "100644",
       "path": "sections/01-complete-ports.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "d4935c23e002f508cdd80ae112baccbb1b1b91866020ce8670900b6666cc3720",
-      "source_blob": "41b22d630c40163e5db17d092f2e9811c851ea2c"
+      "sha256": "daa4419d21fa4fdb82d5c26656ec6122f53afb2f20e25930fa8512afa7c2e5bb",
+      "source_blob": "76d828f9923b1852ac43d8df417e251a56d9a62e"
     },
     {
-      "bytes": 9049,
+      "bytes": 5138,
       "mode": "100644",
       "path": "sections/02-confinement-transfer.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "f98d733168d3aebc028808847afc4af27b75c73138cfb287389ca2e69dcf1748",
-      "source_blob": "c198cbe5ca75158cd8d2db4f67a922058cd4f4e7"
+      "sha256": "9d1c8df541ca6a8231108671214f9290467944a0c3c0d1a2c090c884bfb65e5b",
+      "source_blob": "611a3dff85ee5f0daec878e1004f95cb8993c9f8"
     },
     {
-      "bytes": 8867,
+      "bytes": 6168,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "1b5d7646a778133072633a73668097d1019d314eb1b5f074c9ed1b93fae57296",
-      "source_blob": "b4996d16bb6e2c01f0e686e40635c5e954340c36"
+      "sha256": "c6a83e62471399cd180a006a025745fb95bdf692bf756f067f16f9c3a7341f12",
+      "source_blob": "e8e4a1c20d095572f95fa1f565ede78b637ef577"
     },
     {
-      "bytes": 5009,
+      "bytes": 10344,
       "mode": "100644",
       "path": "sections/04-reliability-exit.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "60a11a3e6ea54ceb186b2dc32745cb3cc3ffff3885300bcde677d8b1082e4d18",
-      "source_blob": "f5b81c536fb79cffc7aa1e2fd32f981bdba59140"
+      "sha256": "28ca353587066204fcda5dd44d5909f7891d0918ca3f3cfa1abd2f8ef00b3e79",
+      "source_blob": "0dc47fa7c23a59eebf4e2019ea38f41080553bdc"
     },
     {
-      "bytes": 13192,
+      "bytes": 8665,
       "mode": "100644",
       "path": "sections/05-pointed-tutte.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6843eb7e3f74d19a770a5029572b7a23b96f3beb45d35594629e6e4de9c66470",
-      "source_blob": "b0ebee1e6958831aee5c8bc8a492b3cab9b212a8"
+      "sha256": "2c503f07ab5353e696ac727d594ef83ec113ea067c6b9fc4f0068545b8b2edf8",
+      "source_blob": "7423643ffde441b6c68a8415f3fb4f8e716b32ae"
     },
     {
-      "bytes": 12202,
+      "bytes": 6689,
       "mode": "100644",
       "path": "sections/06-geometric-flagships.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "51bcbb34b446b0a7a6f28157afeb6f69f2e83e695fdb1ccd13d635757f3dfae7",
-      "source_blob": "49a966a0614950cc5c4c5f57a0f679623f077f60"
+      "sha256": "c552f68cde8e089ec17e22013c187c5100db65479450761b6c361ebcae7bb532",
+      "source_blob": "049dce5a912749d3fea654c4ca99b490ed99b401"
     },
     {
-      "bytes": 8793,
+      "bytes": 2093,
       "mode": "100644",
       "path": "sections/07-verification-provenance.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c1f95628039211935a3bf0446c4233f53d3da260b6c82756b34a3a55f49f1f21",
-      "source_blob": "7fa671fa14339cc35323f5cdb769e46d4e2a49f5"
+      "sha256": "fed9692a94c187524f1c752d30cdb7edd6c8810529cc75967c2f28f8e5eac4fd",
+      "source_blob": "2d366183ed31b31f17e5a60909586bad0d526791"
     },
     {
-      "bytes": 2058,
+      "bytes": 1909,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "0a5b19b50ce2f61738c82ffd736e7f0f6a237e45e705688e65ff0925674dfa55",
-      "source_blob": "5b5cc0ebf20c1d90311c3af1287b9ea346d4ac62"
+      "sha256": "611fdfb7093165b57316719e1b4041a16c77ffb01cdd0137f52ba97518c87b81",
+      "source_blob": "a6ca2aad2d7d95a751a888f3895a565d0cfd25f5"
     },
     {
-      "bytes": 1214,
+      "bytes": 1341,
       "mode": "100644",
       "path": "sections/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "d9710c66c559910cb09b5bdefafd4fcfb387724b31bd2abc98be3522c174e681",
-      "source_blob": "7d7e3adee5777323e8e03a0c746546025b60a245"
+      "sha256": "65f30fb222dcc943b7611e7e0ed63234ce4d84e835ff3bef53e67b7e017c5cbc",
+      "source_blob": "2f8f6feb53b6b9ba383d3c65b06529f7d3ac9bb5"
     },
     {
-      "bytes": 3062,
+      "bytes": 2454,
       "mode": "100644",
       "path": "verification/README.md",
       "rewrites": [],
       "role": "verification",
-      "sha256": "f03aef736317245f576c70ec4d0c8827103ca8d2fc05fd5c1445bbf674f0dd93",
-      "source_blob": "2770bd6d6436ce6e28fafbcc0ac61e571a824511"
+      "sha256": "291460a068de3030deb31fc1d3328c38988f289deea56dd45243cd24491defbe",
+      "source_blob": "1b372751a89250dce22513b329712c1abf094732"
     },
     {
-      "bytes": 3736,
+      "bytes": 1041,
       "mode": "100644",
-      "path": "verification/f7-seed.json",
+      "path": "verification/distribution-files.txt",
       "rewrites": [],
       "role": "verification",
-      "sha256": "8096230e66f634c820ae7ec4bacd9b2493006782ff02b8be3a8c7e1caf80de07",
-      "source_blob": "f39caf591f49fede84cc9837a4560008beb1e938"
+      "sha256": "7ecdba5e8a871567ae5c101a58ee146e3701d3a20b7900749f5073ec34d02f6d",
+      "source_blob": "097b2a1e5c615230cdd8bcedaea2364319957df5"
     },
     {
-      "bytes": 5910,
-      "mode": "100644",
-      "path": "verification/f7-seed.py",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "5c4a53ab848f9d7ff325accf48d4639bb736c7a26a537a5369c0883dc23efd69",
-      "source_blob": "141330b718953fd03e089393bb9a7dc95a136bc1"
-    },
-    {
-      "bytes": 2291,
+      "bytes": 665,
       "mode": "100644",
       "path": "verification/formal-boundary.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "ce3d573c6826dbb54ddfbe0ef8656b9e20b437981932ef0dc643b0b243604e28",
-      "source_blob": "55b5cf2b3a7adef297d6174d5c7d68fbe8e4fcb8"
+      "sha256": "7227bb8ce984d563ed9e37b8c0f6f73ae3631b6febc561ac15334f0296cd0e33",
+      "source_blob": "55dcaa5feb3ca01ae1ee98c53e8142475c044250"
     },
     {
-      "bytes": 5519,
-      "mode": "100644",
-      "path": "verification/matched-seed.json",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "16a378edc882a6dda7f5642c7d21bfa49913b45ef5409398de117897b19dd2b8",
-      "source_blob": "4a76dfd756595ce98c3bdff105a38b4ab6163c53"
-    },
-    {
-      "bytes": 9507,
-      "mode": "100644",
-      "path": "verification/matched-seed.py",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "e5b84a9fe9ac0d32f9e314792481bbd28b90085709bd0b79e15fa9a4478cfd97",
-      "source_blob": "1beb94102751e3a98f29761dfb6002f5fc842e43"
-    },
-    {
-      "bytes": 16542,
+      "bytes": 11756,
       "mode": "100644",
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "40e2d0d8bba56e65299e2e7c73b057866424bd9e36855f26896ca7999d5da583",
-      "source_blob": "ab924e1c55f9965f6013ae02eaad28afdcbf5a84"
+      "sha256": "b33309bb22ccbdf6158da858559ad81807741566bf4ad9158a2f97dbd49d5835",
+      "source_blob": "05ed471b8765079c1568904588e3da3f9824f500"
     }
   ],
   "github": "tavisrudd/complete-repair-ports",
@@ -263,10 +362,10 @@
   "paper_ids": [
     "complete_repair_ports"
   ],
-  "paper_registry_sha256": "0f703cd3ebc2cce20cc63b62429557a98c57e4e77ccec4738e668d4f0066b550",
+  "paper_registry_sha256": "ac41b7b357cf4f0cf6dfe0669205cb3afa27074632c01a0c7237efe425833738",
   "release_output_policy": "immutable-source",
   "repository": "complete-repair-ports",
-  "repository_map_sha256": "b58ac61c524b0f923124defdf01266eb9de73b50c8df8500e886e53fbfa37dfc",
+  "repository_map_sha256": "bbe3f256111bdfc18c197d4a31ba7df1e7a4195bd3b892569b876d4bbbc32d35",
   "schema_version": 1,
-  "source_commit": "af34473b1c92b3f9d7f65dfd30e9af439a102006"
+  "source_commit": "ae05e168eb255241de2c9be88936cc39a0667cd3"
 }
