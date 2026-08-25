@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "c37e85912c8c08ba6a35f97384a5026a56bc3ee5880bef0d7980a433b7feebac",
+      "sha256": "f3e5d1d4466a16e89cd4596c812fa6f928a945cd2618529a92a6b73951c79610",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "65c2d40c5f89e2a7efbbafb5ff57a08f5cb92e9f"
     },
     {
-      "bytes": 195738,
+      "bytes": 195185,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "656aaed7b705f5214e675b6aec3ee57301654717c62882711f218558527b12a1",
-      "source_blob": "3f8c283807da716e6d8a1749be3d67f174b4568e"
+      "sha256": "885da7b3d1f1f1ba029eea4b79957d791671e6f26ab963c3d41ca0184316d82a",
+      "source_blob": "520a56ac3d907a624e59e40e9aa92cdcf99957a2"
     },
     {
       "bytes": 9883,
@@ -255,22 +255,22 @@
       "source_blob": "e1a71a5387b7e56939bea45753b1a052f0c541b1"
     },
     {
-      "bytes": 12987,
+      "bytes": 13046,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "968695db18291ff8ba0114bc183036cba48336e7f8d2bf792353ac9ad39c9682",
-      "source_blob": "7943e175f3450a1cfe858176a41d6d8c33b48b43"
+      "sha256": "b25dc321e3bfe8ecbdfcdce3d3c6ff19a53c855736c2af68fea44690f9c038ef",
+      "source_blob": "993399d4ad2b9ea94e2ff8d5f5daca24bd77e2e0"
     },
     {
-      "bytes": 10359,
+      "bytes": 9855,
       "mode": "100644",
       "path": "sections/04-reliability-exit.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "9e764f6d84faf22764fa5dc95ad6f1b5d7adecbb579386f7cbe2b30c5e9361aa",
-      "source_blob": "b232b801876e197bd14d53f053688160b1da206b"
+      "sha256": "cffa8993373b370c06019f7865ab648122cc3f45e4b91c9f187d2f5ffd895727",
+      "source_blob": "21945e3d5b648369a6b2ce9090471a84d2159f38"
     },
     {
       "bytes": 8665,
@@ -291,13 +291,13 @@
       "source_blob": "360c9d1de74813c49768d201793c9e4040697ff5"
     },
     {
-      "bytes": 2134,
+      "bytes": 2178,
       "mode": "100644",
       "path": "sections/07-verification-provenance.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "9e0bcf3c4f57810be2dd2bbcbfdae4d548b368022da54ffa06311bc49dd0f128",
-      "source_blob": "643c739b9e7d758aacc51d17967dbd8bbbab9694"
+      "sha256": "6a15f0eb77a611be35078fe15110816b3d493b94d0400da8461c5789fc9ef422",
+      "source_blob": "aa9a578005d0765a70ccc79bb730b218bdf142d0"
     },
     {
       "bytes": 2770,
@@ -367,5 +367,5 @@
   "repository": "complete-repair-ports",
   "repository_map_sha256": "e3eb7c57522d13e1a959e5f8880fa54e7d8794c5646d8fe4a07b51df19b84890",
   "schema_version": 1,
-  "source_commit": "aa66b98d124b94b4af00da51fc553f3e5f5f9d82"
+  "source_commit": "0605a6a1d1609f0416d237b185984371ffc2254e"
 }
