@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "e0e7c6c2d705a8a1d031c4b155de26b70652ec96de8169bea423ae9cca8f95d6",
+      "sha256": "320a339a4d5f417235b8dc0dcde02399616ac242b975de14b657d0209a5f66b7",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "d892c86720cb15d6da2ae5b6135331b024ca21c5"
     },
     {
-      "bytes": 221846,
+      "bytes": 223183,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "6c428d995d3818e3493f8995095f2c9c3ae93491a41b03e5e6a7d7d4ff65a504",
-      "source_blob": "7609b56196c32edfae192a45585a52956599ba5a"
+      "sha256": "a72800fc4c11b0ad1803b01998494fa3bbf79adc8cf3d221a33813b02d340e9d",
+      "source_blob": "05101411324854fd4505e24f7cb06bfd4761f34b"
     },
     {
       "bytes": 10712,
@@ -210,13 +210,13 @@
       "source_blob": "e85dfe7575c616ac5421848bafb92933af347954"
     },
     {
-      "bytes": 8589,
+      "bytes": 8636,
       "mode": "100644",
       "path": "lean/verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "e389073dc349aebf5a00afec420cd282e25e9e5a0b8789141dea29f17e8d0333",
-      "source_blob": "79d33fa26963f2ef63c88c65f436a01e2176f2c9"
+      "sha256": "d12a172f76be152a10327e7014c3507db9f8e97c543e417ee9261664d714c709",
+      "source_blob": "207b921b0db28a2d97b8522beff3ed151c6368cd"
     },
     {
       "bytes": 506,
@@ -255,13 +255,13 @@
       "source_blob": "06db6a139712f071a340471a0ceef032de19eae7"
     },
     {
-      "bytes": 22920,
+      "bytes": 23600,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "732825bab30bb2ba24a13cfe5c3684cfc935e174e0163e400125475143ea7ffe",
-      "source_blob": "07afc1fe666e6799820ecd6ede43e9d899baa06e"
+      "sha256": "da47cc365bc804a497c08a29b3c91743a94017cecf4f9437075e055ab7276186",
+      "source_blob": "d6b81b387d2c31b5454cc51254833bd365ae79ef"
     },
     {
       "bytes": 10452,
@@ -367,5 +367,5 @@
   "repository": "complete-repair-ports",
   "repository_map_sha256": "34498ac7fb13d970c5548a069ff053c3ccceccef5650c47babe55a75e511c4df",
   "schema_version": 1,
-  "source_commit": "8e77c5d44d68e11fc8560ebaf35418fd064e6df2"
+  "source_commit": "5e91f853f650a83022a5ed86741d59f84be3535f"
 }
