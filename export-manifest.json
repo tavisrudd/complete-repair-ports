@@ -44,17 +44,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "2889664ae8a38ba5364c3dec11ebc2383213d7b923f2675199e5642640fb961d",
+      "sha256": "028772dd15b8c2209ef4ac4844b8386237748f00745387d9b6b169f2912a25c5",
       "source_blob": null
     },
     {
-      "bytes": 5866,
+      "bytes": 6165,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "6630a6ec212ae226ea12e2e5999bfa6ef67c3647e39de3ff7b30b83dff2da614",
-      "source_blob": "1e087692ae3d7f3df71cee550634cf98543e10da"
+      "sha256": "03839a1e92db110b1892f10dbf13bd23141954bcb4240d00208d3c589a4cc974",
+      "source_blob": "d9edf1c083d5f873fdefe50787a4af3da61b1c9a"
     },
     {
       "bytes": 10058,
@@ -66,13 +66,13 @@
       "source_blob": "7c035a01c191b4ad3e50afdc99dc2838631c2761"
     },
     {
-      "bytes": 209914,
+      "bytes": 210979,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "464c93be3af4a2741310e616ef8db88e16354892c6603513a0481399b560f013",
-      "source_blob": "92588b0beb3fc59bc3b23ec1648e29746c0524b5"
+      "sha256": "0fddcccb06237e4fe0e3e66b5cacc625cebdd599c332278dc047ad00ea6df9ef",
+      "source_blob": "6af0b165f76490d8e30549dfcfc927b1e90ba215"
     },
     {
       "bytes": 10712,
@@ -255,22 +255,22 @@
       "source_blob": "06db6a139712f071a340471a0ceef032de19eae7"
     },
     {
-      "bytes": 17115,
+      "bytes": 17780,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "804db3c72ef20e2cf0a264bdc2d3f36d6bc22615a5b8402ec8569be1fd9feb9f",
-      "source_blob": "494e74d4f5edbc881fcd30493feee7902fabab9d"
+      "sha256": "6b519b8294d3a241a906363452334d47530b5ba4c7605c598854e77e20289a5b",
+      "source_blob": "162ecf35589a2388cc2002c719ae98c75fb2f36e"
     },
     {
-      "bytes": 10172,
+      "bytes": 10452,
       "mode": "100644",
       "path": "sections/04-reliability-exit.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3b7dda1d0c9598f7a55b1c0ef5ee5d8152a313b57db7cec267677c9d94662413",
-      "source_blob": "59de0496805c273d17f700846d5fcfe6729d10eb"
+      "sha256": "9badf9cd9614bba5a38012fd5d96700f404d91e1f488f3476f59597d800e7a30",
+      "source_blob": "44747be87c5e0413b943decdb154db83aaf0ceae"
     },
     {
       "bytes": 9646,
@@ -367,5 +367,5 @@
   "repository": "complete-repair-ports",
   "repository_map_sha256": "34498ac7fb13d970c5548a069ff053c3ccceccef5650c47babe55a75e511c4df",
   "schema_version": 1,
-  "source_commit": "e8dee71c7b453ca710a7cda373f842a415400a6d"
+  "source_commit": "11826d1506d7e9b1e01b0428dd8880e319fc576d"
 }
