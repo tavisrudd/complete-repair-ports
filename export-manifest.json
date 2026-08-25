@@ -44,44 +44,44 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "f711f9d495001328f8b77befb6d871514b6b6ca53eb38e0ef68d07de0abaf06e",
+      "sha256": "c37e85912c8c08ba6a35f97384a5026a56bc3ee5880bef0d7980a433b7feebac",
       "source_blob": null
     },
     {
-      "bytes": 5046,
+      "bytes": 5479,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "dfc4b6cefba93b0abaf94a038f27eb3e71e85db5176d417e3985bed64b131e40",
-      "source_blob": "19c4a22787a7ae319a9e2c844f7a1ddb44fed36a"
+      "sha256": "6e962f419e2ddf4566c0a4171a3188dca63ddf41bbd4bdbde9c22cdd8b7af742",
+      "source_blob": "7bcbf86b3eeab1dcbd09d08d2cbe04cb68d3967f"
     },
     {
-      "bytes": 7835,
+      "bytes": 8806,
       "mode": "100644",
       "path": "REVIEWER_GUIDE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "1af037062e7c1078ae7c0918a970d6d043825025d43ac9aa8a49fc324983b8ca",
-      "source_blob": "22a6c5bdbc278bd475cfc5814ee3b3e2f5d6be1a"
+      "sha256": "6c4d01301b93fec08919a7fa080c26bbc9b5e3cefae8ac4496da35ae25bf44de",
+      "source_blob": "65c2d40c5f89e2a7efbbafb5ff57a08f5cb92e9f"
     },
     {
-      "bytes": 180244,
+      "bytes": 195738,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "69e3119404fd1531b0a1dc2af3b22acadd1b1697ae97d1cee2fd41804b3cfe6f",
-      "source_blob": "7476cc501c66bd629ba0dae045267042a4a5c1cf"
+      "sha256": "656aaed7b705f5214e675b6aec3ee57301654717c62882711f218558527b12a1",
+      "source_blob": "3f8c283807da716e6d8a1749be3d67f174b4568e"
     },
     {
-      "bytes": 8802,
+      "bytes": 9883,
       "mode": "100644",
       "path": "complete_repair_ports.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "2d06ffc4deaf797253637478d8df98b11e92d2b4f18171c9d1073b57e25312f9",
-      "source_blob": "7a227785c9fb945309c34df091a4ebe1004c8974"
+      "sha256": "1927ffeb7ddd0db1fc32493d3bbafd7643645ce22225d7f6440b7be495998f42",
+      "source_blob": "d7f6f64a5bb07b12821d7336589479964a1ca250"
     },
     {
       "bytes": 567,
@@ -210,13 +210,13 @@
       "source_blob": "e85dfe7575c616ac5421848bafb92933af347954"
     },
     {
-      "bytes": 6062,
+      "bytes": 6900,
       "mode": "100644",
       "path": "lean/verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2e692c4221b85180016ee4253914593b5de2dbdc0e1511a94d3a19e35055bee1",
-      "source_blob": "f1d4fe6153c3842da32a20595757c45145895e63"
+      "sha256": "0f19eff04f451003fc42a265fad83e8a6c182df1083f25f0bf3625265f91e5d7",
+      "source_blob": "86681959c12b03467528be8711d47e612f917a15"
     },
     {
       "bytes": 506,
@@ -228,13 +228,13 @@
       "source_blob": "9f99babb29c38138aa68c8a8eae5c1caf9b61635"
     },
     {
-      "bytes": 12909,
+      "bytes": 13234,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a8440e8914d8ecb8dca90905af481964b2455113d38c0d2902d3b4bd6a913b4b",
-      "source_blob": "3328a7ad694cf4fc02dccf5fe8b9f79b7eb13138"
+      "sha256": "feed488f98af4933798dedb5df794120289761b06ea4559ed398469078621953",
+      "source_blob": "2a8e71d3062c2f4d9f193463acaaecd49c93cb74"
     },
     {
       "bytes": 4754,
@@ -246,31 +246,31 @@
       "source_blob": "76d828f9923b1852ac43d8df417e251a56d9a62e"
     },
     {
-      "bytes": 7092,
+      "bytes": 7185,
       "mode": "100644",
       "path": "sections/02-confinement-transfer.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "b009d4faffa9138cdda675404dab9681f89ab9c217d1fc7c0e5d9ef3a0339542",
-      "source_blob": "b34100eaba7d48491ad8a2ee5f790f2256149420"
+      "sha256": "5d40133ae23793c097ed77cb2e67d20261ce14ff7d1f75a0eefa528bf156edb0",
+      "source_blob": "e1a71a5387b7e56939bea45753b1a052f0c541b1"
     },
     {
-      "bytes": 6168,
+      "bytes": 12987,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c6a83e62471399cd180a006a025745fb95bdf692bf756f067f16f9c3a7341f12",
-      "source_blob": "e8e4a1c20d095572f95fa1f565ede78b637ef577"
+      "sha256": "968695db18291ff8ba0114bc183036cba48336e7f8d2bf792353ac9ad39c9682",
+      "source_blob": "7943e175f3450a1cfe858176a41d6d8c33b48b43"
     },
     {
-      "bytes": 10344,
+      "bytes": 10359,
       "mode": "100644",
       "path": "sections/04-reliability-exit.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "28ca353587066204fcda5dd44d5909f7891d0918ca3f3cfa1abd2f8ef00b3e79",
-      "source_blob": "0dc47fa7c23a59eebf4e2019ea38f41080553bdc"
+      "sha256": "9e764f6d84faf22764fa5dc95ad6f1b5d7adecbb579386f7cbe2b30c5e9361aa",
+      "source_blob": "b232b801876e197bd14d53f053688160b1da206b"
     },
     {
       "bytes": 8665,
@@ -282,13 +282,13 @@
       "source_blob": "7423643ffde441b6c68a8415f3fb4f8e716b32ae"
     },
     {
-      "bytes": 6689,
+      "bytes": 6954,
       "mode": "100644",
       "path": "sections/06-geometric-flagships.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c552f68cde8e089ec17e22013c187c5100db65479450761b6c361ebcae7bb532",
-      "source_blob": "049dce5a912749d3fea654c4ca99b490ed99b401"
+      "sha256": "1707b9c7f48711d660558e4867b7ae92de16b0adb7f156e561689faceacca4a9",
+      "source_blob": "360c9d1de74813c49768d201793c9e4040697ff5"
     },
     {
       "bytes": 2134,
@@ -300,13 +300,13 @@
       "source_blob": "643c739b9e7d758aacc51d17967dbd8bbbab9694"
     },
     {
-      "bytes": 2254,
+      "bytes": 2770,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "45fefe33a5473e67b1b94a95fee5674710e3f954abc688cdacd5f640a0eaa4f1",
-      "source_blob": "e66fb8691622449c56e1e8fb0f226768e62cf7c3"
+      "sha256": "3f96b0bc87c3ed3024e2024f2f0b913c982a15764b76bf1bebd130de7646d77f",
+      "source_blob": "b6205c49bab52770254670731770054b6356a493"
     },
     {
       "bytes": 1341,
@@ -318,13 +318,13 @@
       "source_blob": "2f8f6feb53b6b9ba383d3c65b06529f7d3ac9bb5"
     },
     {
-      "bytes": 2497,
+      "bytes": 2496,
       "mode": "100644",
       "path": "verification/README.md",
       "rewrites": [],
       "role": "verification",
-      "sha256": "4b4ddd7a68acc82bc18d85bbcf36bdabe66e1f93a92a3a4827fac5e8dca042c3",
-      "source_blob": "998cacbc89277a4977884e4418a3e0c54284e658"
+      "sha256": "ed443466c421c8d02dfcd63891ec5ff11884a530b0ddcf56562e4610f264013f",
+      "source_blob": "525f598c56bb36231d74dc4c18ac68078e9fea93"
     },
     {
       "bytes": 1041,
@@ -341,8 +341,8 @@
       "path": "verification/formal-boundary.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "1d4e633b4a01739f05621d6d3fb25d869c4c4588513a19b6a46acd80ad9bb470",
-      "source_blob": "36bd9dba268791daee9febd0098b0b75201114fc"
+      "sha256": "f5e5d8d7baf5c5f54b7c898ed2ac80068c97129b6f76f87cd5d95460a194afaa",
+      "source_blob": "6ccb0e1d5830cd97f2c8a5fe36c0632c699b1458"
     },
     {
       "bytes": 11756,
@@ -350,8 +350,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "bf9f19515d45492ae10edb2c483d2036251dacaf28a451975bfc31d2b7507a31",
-      "source_blob": "966877929c1acf66a058722c907840b1b381797d"
+      "sha256": "ebc6fc371f2adc3c0824d5eebd0544db07411aac1873007977f88907f7cc1d22",
+      "source_blob": "9af432f3f07d6b80880ad963f5845cd2486b856d"
     }
   ],
   "github": "tavisrudd/complete-repair-ports",
@@ -365,7 +365,7 @@
   "paper_registry_sha256": "ac41b7b357cf4f0cf6dfe0669205cb3afa27074632c01a0c7237efe425833738",
   "release_output_policy": "immutable-source",
   "repository": "complete-repair-ports",
-  "repository_map_sha256": "bbe3f256111bdfc18c197d4a31ba7df1e7a4195bd3b892569b876d4bbbc32d35",
+  "repository_map_sha256": "e3eb7c57522d13e1a959e5f8880fa54e7d8794c5646d8fe4a07b51df19b84890",
   "schema_version": 1,
-  "source_commit": "5e42105982962faf22098da109487065c0bb2d73"
+  "source_commit": "aa66b98d124b94b4af00da51fc553f3e5f5f9d82"
 }
