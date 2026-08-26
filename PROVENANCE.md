@@ -1,6 +1,6 @@
 # Export provenance
 
-- Source snapshot commit: `5e91f853f650a83022a5ed86741d59f84be3535f`
+- Source snapshot commit: `cdfb7b1a576e92003e35fad90e7e714378056664`
 - Repository identity: `tavisrudd/complete-repair-ports`
 - Export method: deterministic, content-addressed source materialization.
 - File hashes and source blob identities are recorded in `export-manifest.json`.
