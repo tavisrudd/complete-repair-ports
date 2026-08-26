@@ -2,15 +2,33 @@
 
 **Exact Recovery and Generalized-weight Optimization Compiler**
 
-ERGO-Comp turns mathematical structure into exact recovery plans for linear
-codes. When a problem exposes a quotient, conserved grading, generated-span
-state, bounded moment alphabet, or reconstructible coefficient block,
-ERGO-Comp compiles that structure into a smaller exact solver and sends only
-the surviving core to a specialized enumerator or CP-SAT.
+The Exact Recovery and Generalized-weight Optimization Compiler (ERGO-Comp) is
+an exact compiler and solver for structured linear-code recovery, capacitated
+repair scheduling, and orbit-structured code search. It turns quotients,
+conserved gradings, generated-span state, bounded moment alphabets, and
+reconstructible coefficient blocks into smaller exact state spaces, then
+solves them with specialized engines or passes a reduced residual model to
+constraint programming-satisfiability (CP-SAT).
 
-The result is more than an objective value. ERGO-Comp returns the helper
-choices, local labels, resource loads, or obstruction certificate needed to
-check and deploy the optimum.
+It computes hierarchical cost tables, helper and confinement thresholds,
+maximum feasible repair batches, and structured code-search optima. Each result
+retains the helper choices, intermediate labels, resource loads, coefficient
+data, or obstruction needed to replay it. On the recorded exact scheduler
+profiles, ERGO-Comp is 2.5--373 times faster than CP-SAT given the same safe
+preprocessing.
+
+The paper proves the reductions that ERGO-Comp uses. No theorem in the paper
+depends on this implementation or on its benchmark results.
+
+The implemented core already serves three domains: exact recovery and
+confinement, capacity-aware batch scheduling, and orbit-structured code search.
+The same exact objects give immediate front ends for batch and private
+information retrieval (PIR), availability analysis, topology-aware repair,
+service-rate optimization, code design by full recovery profile, and
+experiments beyond generalized weights. Reliability
+polynomials, secret-sharing and represented-matroid interfaces, and broader
+algebraic preprocessing for generic solvers are research directions, not
+claims about the current command-line interface.
 
 ## What it does
 
@@ -30,6 +48,8 @@ check and deploy the optimum.
 - **Auditable exactness.** Use integer and finite-field arithmetic throughout,
   with deterministic tie-breaking, Python differential oracles, and replayable
   witnesses.
+
+![ERGO-Comp compilation pipeline](docs/pipeline.svg)
 
 ERGO-Comp is not a universal replacement for CP-SAT. It is designed for exact
 problems whose algebraic structure is expensive for a generic Boolean model to
@@ -90,6 +110,33 @@ Matrix data is row-major and reduced modulo the declared prime. The composition
 command currently dispatches prime fields of orders 2, 3, 5, 7, 11, and 13;
 the library API can instantiate other prime orders at compile time.
 
+Large composition frontiers and generic scheduler Pareto/lattice kernels can
+run in parallel without changing the exact result or canonical witness:
+
+```sh
+cargo run --release --features parallel --bin ergo-comp -- \
+  compose --parallel --input examples/data/compose.json
+
+cargo run --release --features parallel --bin ergo-comp -- \
+  schedule --parallel --threads 12 --input examples/data/schedule.json
+```
+
+`--parallel` uses measured command-specific caps: at most 16 workers for
+composition and 12 for scheduling. `--threads N` makes the worker count
+explicit. Small or already-fused kernels stay serial when dispatch overhead
+would exceed the available parallel work.
+
+![Parallel speedup by worker count](docs/parallel-scaling.svg)
+
+| workers | 1 | 2 | 4 | 6 | 8 | 12 | 16 | 20 | 24 |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| composition | 0.94x | 1.68x | 2.06x | 2.50x | 2.82x | 3.00x | 3.15x | 3.19x | 2.69x |
+| generic scheduler | 1.01x | 1.49x | 2.24x | 2.11x | 2.34x | 2.44x | 2.15x | 2.24x | 2.13x |
+
+These Criterion point estimates compare each parallel path with its native
+sequential kernel. They explain the conservative defaults: using all 24 cores
+is slower on both measured workloads.
+
 ## Why compilation matters
 
 A generic solver sees variables and constraints. ERGO-Comp also sees the
@@ -128,6 +175,8 @@ An interleaved 11-round comparison on the frozen scheduler profiles measured:
 | balanced | 3.710 us | 1.143 ms | 995.895 us | 308.036x | 268.441x |
 | small-state | 7.304 us | 2.753 ms | 2.723 ms | 376.977x | 372.846x |
 | large nonuniform | 52.849 us | 1.250 ms | 1.041 ms | 23.646x | 19.697x |
+
+![ERGO-Comp speedup over structured CP-SAT](docs/cpsat-comparison.svg)
 
 These are bounded results for the declared profiles, not a general solver
 ranking. The exact machine, toolchain, inputs, repetitions, samples, checksums,
@@ -193,8 +242,9 @@ the proof of a manuscript theorem.
 
 The mathematical definitions, correctness statements, and complexity bounds
 are given in *Exact Transfer of Bounded Linear Recovery and Relative Weight
-Hierarchies*. The implementation is a companion for computing and checking the
-paper's optimization objects.
+Hierarchies*. They establish the reductions independently of the software. The
+implementation carries those reductions to problem sizes and applications that
+direct enumeration or generic Boolean modeling reaches less effectively.
 
 ## License
 
