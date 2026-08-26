@@ -1,5 +1,5 @@
 {
-  "content_sha256": "3094aa3cd02810d044cee22d5c05fbcc6f4b9797d881be87fd14d714471a7687",
+  "content_sha256": "0c7b9fea15943f639858df6f81267dd9ecf044cb6180b2a41b7cc632f468c94f",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "c1df5a04f6a7f4d0438f0c5aa4a24d046c16e854d7884426a95e6e7aeb8203dc",
+      "sha256": "20dbddc4d0a873ead4c44074392b092d62213e980eab4bfd54fbcfdcde64cf93",
       "source_blob": null
     },
     {
@@ -579,22 +579,22 @@
       "source_blob": "33fb17ce4b737c543b5a593875082f2bf03eb098"
     },
     {
-      "bytes": 241608,
+      "bytes": 241478,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "2690f399857cac1db0c4b578a6b27f20fa20c3227c57f61610ff9b8e960aeeb6",
-      "source_blob": "03e266037fb2567cfeb1024783a39bae7c1caceb"
+      "sha256": "24118e5102be818e5c5100640cd143cc3111e3ff9ec35b10eedaa0ac1764823a",
+      "source_blob": "fee0146f6b99bf49490b987bf25d07532905b4d8"
     },
     {
-      "bytes": 11179,
+      "bytes": 11209,
       "mode": "100644",
       "path": "complete_repair_ports.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "c26a57b8c6850ca15f1e75ed30bab86ff42736a24aa33fe4c867834f46686ac9",
-      "source_blob": "db474d3549efd72f815cbd7048fc8f412bcf5819"
+      "sha256": "5416549b49214b8475ec4c999acf1fcc724a02dbaeafa5bef76a36290d5c97cd",
+      "source_blob": "ebea500ee62136e15fb86dfc7af0760843fe97ba"
     },
     {
       "bytes": 567,
@@ -881,8 +881,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "ce3e66967e4d39dd0af5d21c0f4fc8325d76c940f2602512a2f2005fe7408390",
-      "source_blob": "298a640abbff99f5266ba7521f2b7485ad1d4d5e"
+      "sha256": "7aec7da165467613bff4e92b4b7896b5bac22e4b646e53cf04269591a0f377f2",
+      "source_blob": "ea61135c4614e2c441d57b3f69ab914ffc72c0fd"
     }
   ],
   "github": "tavisrudd/complete-repair-ports",
