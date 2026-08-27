@@ -1,5 +1,5 @@
 {
-  "content_sha256": "bd32dd9d7ff5d3baf86ef0101bed1c4cc96ba27f4086c4a8de90526738e0dd96",
+  "content_sha256": "8ccedcc0489dee196569457f7059aea8b2174b91c084315ff20690c937467684",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2185,
+      "bytes": 2246,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "59a3a73c8b57b61ae95105826954b3218b8f25f9f9974d8b70ac91e9c315fc1f",
-      "source_blob": "adf5b09acd62fe52afb28227e363f7f7bad45d4f"
+      "sha256": "d6219986228dacf2b27083b3f419289e32b81b56af0e2d3d06643f4e4a98a27a",
+      "source_blob": "fd53dc01e2c21e2b1278a50d682ef0c52ed5610a"
     },
     {
       "bytes": 1067,
@@ -44,103 +44,382 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "cff605d9599397c3150351dd85e9ddac7b81dbdfeb3068525d9af3fc31f15cea",
+      "sha256": "2bfca7ecfe4814d66b7d7ec1c64245c9a68085b20296c939338871242df462c4",
       "source_blob": null
     },
     {
-      "bytes": 8917,
+      "bytes": 9282,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "806b443bf8615e1170cb83c9fd7e3d00b8e85121b57e1d3064ca9fad45bd3132",
-      "source_blob": "5d4e5b51c54322dbca5ba768d5873ab9b1f954e5"
+      "sha256": "0f0d5b6bc568a7fb324000da8a9b79bda159fe9dc21b5753accd534918ff1b16",
+      "source_blob": "1cf5903af14c9bbbb5d73e8a309751b6262e0acf"
     },
     {
-      "bytes": 10607,
+      "bytes": 10610,
       "mode": "100644",
       "path": "REVIEWER_GUIDE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "3314fab36277c825a7ae350c817667720e523a19177357e193c27db60f20268d",
-      "source_blob": "9caaaaa314994c959d1eb42392dc9ae3de920e87"
+      "sha256": "86efa485f90ee4ed82a4c83d031e02798c3ce55eca6bb60ebcadf4d6998abee0",
+      "source_blob": "11861f79be34671d8ad1bdeee10635a368c633b3"
     },
     {
-      "bytes": 10600,
+      "bytes": 285423,
       "mode": "100644",
-      "path": "algorithms/README.md",
+      "path": "complete_repair_ports.pdf",
       "rewrites": [],
-      "role": "support",
-      "sha256": "8e85a42b14c4e8993fc08447ff8bd4f181998049e0f8ecdd774677878fe25b33",
-      "source_blob": "1fc5c40b3d08b4986fd0be8081d1f9930b02951a"
+      "role": "release-output",
+      "sha256": "7a18b422f679cfe364e9801305e8c69887c054aab43b08f2d6f8db691cdc9cc7",
+      "source_blob": "f0026c183fd8f05183dd140d3ac28039dff563ec"
     },
     {
-      "bytes": 4967,
+      "bytes": 14997,
       "mode": "100644",
-      "path": "algorithms/SHA256SUMS",
+      "path": "complete_repair_ports.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "f919b97ee4b07cdb311e29a79fb9128c71844d836c32676de06f480cd3557c0c",
+      "source_blob": "5dde28de4f8548ad34370d8d14a6e80223b21984"
+    },
+    {
+      "bytes": 9,
+      "mode": "100644",
+      "path": "ergodis/.gitignore",
       "rewrites": [],
       "role": "support",
-      "sha256": "b38e4382a20ca3cd93a4eede4982c69de0b132c52a59323269b1a930f3bb060b",
-      "source_blob": "1000bc526d22ee2e6cd6497103520052f034c102"
+      "sha256": "306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368",
+      "source_blob": "b83d22266ac8aa2f8df2edef68082c789727841d"
+    },
+    {
+      "bytes": 46108,
+      "mode": "100644",
+      "path": "ergodis/BENCHMARKS.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "03108b288f97beb797f4805f7084c82155e6881ab4f8732365039f916d66ed5b",
+      "source_blob": "807976f86651a77d19e1ae617343f0d0ad1db00f"
+    },
+    {
+      "bytes": 21202,
+      "mode": "100644",
+      "path": "ergodis/Cargo.lock",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "c3d05ddc1435dd3da8217aeaffb9dec82bdf1a8f1177c7f4dd05b6d95c8090f4",
+      "source_blob": "4726531a80c273670c96e538cf4078327b2b5088"
+    },
+    {
+      "bytes": 1517,
+      "mode": "100644",
+      "path": "ergodis/Cargo.toml",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "7c4bb250c4cd1ba0ec0437cad05082aa1dfc7fe2882306f1443874968f2199c8",
+      "source_blob": "8300794fa0bb5e49e1cf0bf8db40fd0006d75e70"
+    },
+    {
+      "bytes": 9986,
+      "mode": "100644",
+      "path": "ergodis/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "5f837aa3d097f09a9e0baccc17e999c1b37a0ff7b09dfbe48d2aa2edc417eef1",
+      "source_blob": "e4fb1d5127acd45ec2140990582172ca97e14a70"
+    },
+    {
+      "bytes": 7004,
+      "mode": "100644",
+      "path": "ergodis/SHA256SUMS",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "b10001914ca55e170d1ad32430f0344c986e92f9eb7b6cc35ddbdfd08848fe03",
+      "source_blob": "3c937c7c08d7f4b9107f38c8985e9ea374b916b8"
+    },
+    {
+      "bytes": 9668,
+      "mode": "100644",
+      "path": "ergodis/benches/balanced_frontend.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "9f3fd57fab0d92b4587e51f6e7f3ce9a3f97c09183d58d5cfa694e8ddc79d674",
+      "source_blob": "383ce63364513837c57853959e448b13f841be6d"
+    },
+    {
+      "bytes": 1851,
+      "mode": "100644",
+      "path": "ergodis/benches/balanced_parallel.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "784187d4da05abd760198181d8b7906b95ec120c1d6dc7b32e4606476c1e4bbe",
+      "source_blob": "dfb5865ebeae59a5bfccc3663b92c2e05113a765"
+    },
+    {
+      "bytes": 7578,
+      "mode": "100644",
+      "path": "ergodis/benches/defect_augmentation.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "ad4fddcc9e670f51137f9c8f0530fe40df623b5d62a0d07c92fd7fc468184570",
+      "source_blob": "5c0739f38530aa7c013a95699b26a2948cd2f0cd"
+    },
+    {
+      "bytes": 3247,
+      "mode": "100644",
+      "path": "ergodis/benches/parallel_kernels.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "8fff8b6ce06d2187058b3e2ad80eb315ea10f51677228f3d8a9dd9a718a0bac0",
+      "source_blob": "a464efe56fdf3c69b267dec517b80d28406e4f58"
+    },
+    {
+      "bytes": 4622,
+      "mode": "100644",
+      "path": "ergodis/benches/scheduler_locality.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "1e41368e79b413c52046d7198ac3d33565bc8b588f6e18c7e2931b96b1ddfe7f",
+      "source_blob": "589237147dde0261bb3f2b8b9aa7e4fdc2fa7c17"
+    },
+    {
+      "bytes": 4432,
+      "mode": "100644",
+      "path": "ergodis/docs/benchmark-highlights.svg",
+      "rewrites": [],
+      "role": "figure",
+      "sha256": "7fde85c05b7d233cb86c89a811941e5c992a8a74f36e38799061c7cae25ffdf0",
+      "source_blob": "ecb1b2e84acfe6a6c9ba2f4c826ef91a8edba18e"
+    },
+    {
+      "bytes": 4090,
+      "mode": "100644",
+      "path": "ergodis/docs/parallel-scaling.svg",
+      "rewrites": [],
+      "role": "figure",
+      "sha256": "e292ac1759a55193a2262700996506bd28691db45aa601ceaeae106368dc206e",
+      "source_blob": "1d0866ce937527417ffd135996ab597375e6b396"
+    },
+    {
+      "bytes": 4110,
+      "mode": "100644",
+      "path": "ergodis/docs/pipeline.svg",
+      "rewrites": [],
+      "role": "figure",
+      "sha256": "670db2eb46a5a333a2fd153bb82b653571fb9e14bbf4bcd5ee41531f0d0e1103",
+      "source_blob": "01449a5e2a9a2556f7aa33585af9b621f62a2410"
+    },
+    {
+      "bytes": 1355379,
+      "mode": "100644",
+      "path": "ergodis/evidence/benchmarks.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "2cf81db6371771bc6d06b245233d6c3c74565699c9e26394ea7bbdd6ce10a9ec",
+      "source_blob": "6dacf11faa2e3fa55c37e93f3d1dd3709691d62d"
+    },
+    {
+      "bytes": 14679,
+      "mode": "100644",
+      "path": "ergodis/evidence/results.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "55ba00a17925ba3d54c1cfc7b19bf22ab211e5ada84ae6ba0accc169dc1d4e39",
+      "source_blob": "55a43aefa1af4b915bac05e39a84319fe5622f52"
+    },
+    {
+      "bytes": 92,
+      "mode": "100644",
+      "path": "ergodis/examples/data/azure-repair-batch.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "675ad235064d27e0445d669d1180efe26c2a1ea265092305690626482184ff38",
+      "source_blob": "6c00fa5b814174be787acffc660171248ab8e4ab"
+    },
+    {
+      "bytes": 158,
+      "mode": "100644",
+      "path": "ergodis/examples/data/ceph-repair.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f17d313b7d72b63724230c62503dfb205e0072580e4c141776f0818757776a5f",
+      "source_blob": "d05c57c2e3827b682429ea80dfedff4627a131f7"
+    },
+    {
+      "bytes": 580,
+      "mode": "100644",
+      "path": "ergodis/examples/data/compose-gf4.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "7c1c1564921ad588ecf44efba30c0c97499c437fc4f2383c3c6c4f91fe040465",
+      "source_blob": "3cbeed67af0ea97364455c129918ca5adb3f7f34"
+    },
+    {
+      "bytes": 331,
+      "mode": "100644",
+      "path": "ergodis/examples/data/compose.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "b7e76fc9135564f79ab8b9ceefa5d197f9bd8f3c10ef0eeda93a30bd44fdcfbb",
+      "source_blob": "699f758bbfe1f1a5774508787b85541f207478f5"
+    },
+    {
+      "bytes": 487,
+      "mode": "100644",
+      "path": "ergodis/examples/data/f4-scalar-separation.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "e50c491db513f389903b98b006fb299deaef5b2c7c5025b3d63018b6b4cfeefc",
+      "source_blob": "f369052be65ef9d2f6e1895b6653f99171a33d1b"
+    },
+    {
+      "bytes": 223,
+      "mode": "100644",
+      "path": "ergodis/examples/data/gpu-checkpoint-recovery.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "6784bca0420df4fd2050a95835b662ca38bc96c9dfb9eb4fbcabdab6bb2ccddf",
+      "source_blob": "cc37d0a2c34383d8870a4c1b7ca36a6a714755c6"
+    },
+    {
+      "bytes": 194,
+      "mode": "100644",
+      "path": "ergodis/examples/data/qc-ldpc-search.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "f2b824c6963fc86804f5d180552ba2caef17c52fc4ec870ef1e846dda309a02b",
+      "source_blob": "cc70b5a0c69a9ce99d04fb2e1e233ce768de6800"
+    },
+    {
+      "bytes": 218,
+      "mode": "100644",
+      "path": "ergodis/examples/data/repair-dag.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "06d34b5991535d885ee4f6ca6020e79c463a24ebd8468bdfa735665941dab907",
+      "source_blob": "f9e9962ff2f097c505282a1f25631ae27c7e4aa3"
+    },
+    {
+      "bytes": 121,
+      "mode": "100644",
+      "path": "ergodis/examples/data/schedule.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3b3ed52ced0fe83e31fd2743ae4d47adef20427d2b3433e7615500a4ddb67185",
+      "source_blob": "a1c51f8b01f25b79cf039e86a94d1984ea0172e0"
+    },
+    {
+      "bytes": 473,
+      "mode": "100644",
+      "path": "ergodis/examples/data/transfer-subspace.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "6f85d309dcef708fe5307df1b322101ab3d6b983ed659b8465e8cb8ec3420dbd",
+      "source_blob": "c40c0d2fe8500d23b7b571e8ff9121a1c7464c6f"
+    },
+    {
+      "bytes": 751,
+      "mode": "100644",
+      "path": "ergodis/examples/data/transfer-tower.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "1942841fbf0d3d49a1db041ad8ff76a2ed4ada2b1367e79ee79b68ddb25b80e1",
+      "source_blob": "9140bcb78bfaac3cd91e6dbad26696064ec39617"
+    },
+    {
+      "bytes": 313,
+      "mode": "100644",
+      "path": "ergodis/examples/data/vector-repair.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "fbc8e689b1d554da543c678dfd1ea2966f5bed03ac13a83d4a616f491269b480",
+      "source_blob": "118c233ace2b555fd459b9150ad3f47af8eab25d"
+    },
+    {
+      "bytes": 7052,
+      "mode": "100644",
+      "path": "ergodis/examples/gf27_balanced_dfs.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "682e696f6cbf19f1488fb4eda17cc864356f53f48edef6f7486257b66f0c9a7f",
+      "source_blob": "24abb6c7b483f633787f3f3cce029b33b4bff746"
+    },
+    {
+      "bytes": 1273,
+      "mode": "100644",
+      "path": "ergodis/examples/gf27_balanced_probe.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "56659b4457ae472ceb3b2cd97c869b96dfe5878d41402ecb05d74ec999d01dde",
+      "source_blob": "ec87321408b2a67be63cbab33f3b8f32ef578a79"
+    },
+    {
+      "bytes": 2997,
+      "mode": "100644",
+      "path": "ergodis/examples/gf27_prefix_probe.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "58426e741daa69dcd38c0191fc34e8b2be58a11fa13650ce5b136f089b45dca8",
+      "source_blob": "7e19a49388c9234124e6a320860ee50d78ad90fc"
+    },
+    {
+      "bytes": 495,
+      "mode": "100644",
+      "path": "ergodis/proptest-regressions/scheduler.txt",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "dfbfc0cb02970709db69b5df7d48d3e99f54065d108331cb2d9db7ad691039f9",
+      "source_blob": "4766ae48a9c98dc944b016e8c55abdf719e33a9d"
+    },
+    {
+      "bytes": 1724,
+      "mode": "100644",
+      "path": "ergodis/python/README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "3370e1ac40142821eebf20612c21a68a7163c772c33228f4b1a9ddf98f6a697c",
+      "source_blob": "afa0a06db2f8f0a9e8e871107104a149d390f33d"
     },
     {
       "bytes": 4325,
       "mode": "100644",
-      "path": "algorithms/benchmark_algorithms.py",
+      "path": "ergodis/python/benchmark_algorithms.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "81d2837b5eefd928a4f970b86750e13ce1b8e96b2f75773abc6bf3ce116ccc43",
       "source_blob": "27cd37c8e65fac499ccc99a1617fe1e23d8d8be6"
     },
     {
-      "bytes": 2880,
+      "bytes": 48617,
       "mode": "100644",
-      "path": "algorithms/docs/cpsat-comparison.svg",
-      "rewrites": [],
-      "role": "figure",
-      "sha256": "faabfcd6f84c2c150eb37ea6b45ceb46d781c492c2a251d13d5a4a66e4e87546",
-      "source_blob": "131595083b83f00b8ab996db8c908ba49d10bb5c"
-    },
-    {
-      "bytes": 4026,
-      "mode": "100644",
-      "path": "algorithms/docs/parallel-scaling.svg",
-      "rewrites": [],
-      "role": "figure",
-      "sha256": "0382e6e18d35c93cd278bf50bccf463e08b7aa066c3ef45ff1c88a4b6ce9f5c3",
-      "source_blob": "5d7973bd0e5f30023e3b5835686d476e513a36bf"
-    },
-    {
-      "bytes": 3964,
-      "mode": "100644",
-      "path": "algorithms/docs/pipeline.svg",
-      "rewrites": [],
-      "role": "figure",
-      "sha256": "61a95420c68d26b5637d6086881e28881b856d06e5572b0daa6d28bdf98b4244",
-      "source_blob": "96bc114194c67175a0dc2ea97375b25b5deb3414"
-    },
-    {
-      "bytes": 14681,
-      "mode": "100644",
-      "path": "algorithms/evidence/results.json",
+      "path": "ergodis/python/benchmark_python.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "c7f2c9c23b869174e58b494ddae288b5da64cb671eb95c9aa4472fb255808e59",
-      "source_blob": "cd7b81605e034689c3aebad856b901a0c839c12a"
+      "sha256": "7b8f9e289c2d01bf0c9d2311cf2f9e0a7b2ed50cdd9b54f888b4a2d71b7d2813",
+      "source_blob": "cbd8468caaa3de600eb7eb2c4e5b72bc2d3bff54"
     },
     {
-      "bytes": 29084,
+      "bytes": 29890,
       "mode": "100644",
-      "path": "algorithms/generate_evidence.py",
+      "path": "ergodis/python/generate_evidence.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "567fe6dd1ca3578b9cdee9d4d9332d6b5fea1a1ebdff1f04be59a0688e93f736",
-      "source_blob": "14a0cd1cf7cdfa4a3873ea871cc3c979bb71c199"
+      "sha256": "31ee22dab424372c8b85de4db662e1a53ebb56e8276ab25de5ff66f32087a260",
+      "source_blob": "838149e61c3c10e27c731dca71aad669253b9400"
+    },
+    {
+      "bytes": 21883,
+      "mode": "100644",
+      "path": "ergodis/python/generate_fixtures.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "8c4055c4586eda3a98f76e588a4bb50f3cdb8d20ddbe4fd5a40909af11d76d33",
+      "source_blob": "5e461eba7b06aee1356b5372d6bc7a2748866df0"
     },
     {
       "bytes": 11739,
       "mode": "100644",
-      "path": "algorithms/gf27_defect_cpsat.py",
+      "path": "ergodis/python/gf27_defect_cpsat.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "e8d005ba54de92ddf078b7d3182bee5f12f2d8886eb8cca91fbce0020f1c56ba",
@@ -149,7 +428,7 @@
     {
       "bytes": 3894,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/__init__.py",
+      "path": "ergodis/python/recovery_algorithms/__init__.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "c3f3150a7ae0b7947c3c3256c3001ad252e6e82f338f4a4be58caea1a3dfc659",
@@ -158,7 +437,7 @@
     {
       "bytes": 21476,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/balanced.py",
+      "path": "ergodis/python/recovery_algorithms/balanced.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "7d61eec508c4ef0198cafdae8bd086d1995bf50f871d1c80ba4f5dfa1fe58346",
@@ -167,7 +446,7 @@
     {
       "bytes": 39935,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/costs.py",
+      "path": "ergodis/python/recovery_algorithms/costs.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "2d24c083a602bb39eef6b991fc3c0fa2b5c9fe6315657d5b38b4178a690b0a6b",
@@ -176,7 +455,7 @@
     {
       "bytes": 4187,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/defect.py",
+      "path": "ergodis/python/recovery_algorithms/defect.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "be36abec8afd69ed06993b78e06d152961c9a411f011b93ae20a16a41030301c",
@@ -185,7 +464,7 @@
     {
       "bytes": 6062,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/design.py",
+      "path": "ergodis/python/recovery_algorithms/design.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "f0420ae8e332ac8dea45de88a071fd30152952e1949c4531c6ee046ae85210ae",
@@ -194,7 +473,7 @@
     {
       "bytes": 10490,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/finite.py",
+      "path": "ergodis/python/recovery_algorithms/finite.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "95e7fb17b77d57cecb60e5fb9f54a7d9b054022719068a2a3256d5b6f179c3c4",
@@ -203,7 +482,7 @@
     {
       "bytes": 3795,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/geometry.py",
+      "path": "ergodis/python/recovery_algorithms/geometry.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "819ee4f731545e1161e785ca343e8768332671a6852725436c2d53f2aed6785a",
@@ -212,7 +491,7 @@
     {
       "bytes": 15305,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/incidence.py",
+      "path": "ergodis/python/recovery_algorithms/incidence.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "735ac9fe80d1bee7654638eac383bd3e996a9d20244c411f5e6550289318f8b8",
@@ -221,7 +500,7 @@
     {
       "bytes": 4832,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/reliability.py",
+      "path": "ergodis/python/recovery_algorithms/reliability.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "7ba0678f4aedc123224df5252605cd9e8830809d887d1a2ef92ea449f826a0f1",
@@ -230,7 +509,7 @@
     {
       "bytes": 3073,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/service.py",
+      "path": "ergodis/python/recovery_algorithms/service.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "9349155f4a378c184fab3eaf6600da88d41419ad40e164794726d3c2db45a08d",
@@ -239,7 +518,7 @@
     {
       "bytes": 23564,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/storage.py",
+      "path": "ergodis/python/recovery_algorithms/storage.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "8282a31d186aade9e472a02d1d6ed8bd33e1f7cfc778c28c5561b95fe6c046d1",
@@ -248,295 +527,169 @@
     {
       "bytes": 10271,
       "mode": "100644",
-      "path": "algorithms/recovery_algorithms/transfers.py",
+      "path": "ergodis/python/recovery_algorithms/transfers.py",
       "rewrites": [],
       "role": "verification",
       "sha256": "3a6ea45f13816b6867ea5991af0e659ac844ec6602d8fcd41538bf1378be33bf",
       "source_blob": "380e43fa233ee58acc11c77198eb17480654ddd6"
     },
     {
-      "bytes": 9,
+      "bytes": 65978,
       "mode": "100644",
-      "path": "algorithms/rust/.gitignore",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368",
-      "source_blob": "b83d22266ac8aa2f8df2edef68082c789727841d"
-    },
-    {
-      "bytes": 20700,
-      "mode": "100644",
-      "path": "algorithms/rust/Cargo.lock",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "cf045a235115f511539de7c56155d1e2b16a90336d299f29c1757e84c5b1f384",
-      "source_blob": "126162fb3d117a13a33f9545673b030a1af3f443"
-    },
-    {
-      "bytes": 1456,
-      "mode": "100644",
-      "path": "algorithms/rust/Cargo.toml",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "68a3298b46ce31e0bafaf85389baf3b66fdd84fdbbfaef7b88650ed0fc14eb10",
-      "source_blob": "eae781f4138b8be135de95d7cd62370a90963ee5"
-    },
-    {
-      "bytes": 29379,
-      "mode": "100644",
-      "path": "algorithms/rust/README.md",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "416fe2358c3084bd06017e5e4ae560a060880e3293a2226596a61a9c1a2f9445",
-      "source_blob": "24b5db0b5855531c7f1b2e8e9b337abbd3663353"
-    },
-    {
-      "bytes": 9672,
-      "mode": "100644",
-      "path": "algorithms/rust/benches/balanced_frontend.rs",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "41f63b4a33d2605d482f4f74e5830a0b164cdbb96da0e1c43d7045b21eeb3b7e",
-      "source_blob": "88c2721bf37c5e41b320d535ff4e689f3f278d1a"
-    },
-    {
-      "bytes": 7582,
-      "mode": "100644",
-      "path": "algorithms/rust/benches/defect_augmentation.rs",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "873924ee6d0773c974a0618397d7891ebb4b95e4b753e2ce4fc9e4203dc6afc2",
-      "source_blob": "9c0d05751023c0e1a869da681d5aa2b9c504b422"
-    },
-    {
-      "bytes": 3249,
-      "mode": "100644",
-      "path": "algorithms/rust/benches/parallel_kernels.rs",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "850a9ee8bb34f686ee2e2d925f6638d2faa140e2db77cac58c2ddbaf251cb642",
-      "source_blob": "691a3689d653235e31c34a32c5ba5b1a20749eb2"
-    },
-    {
-      "bytes": 4624,
-      "mode": "100644",
-      "path": "algorithms/rust/benches/scheduler_locality.rs",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "fb3e8ea8bb8c8ce71ea78077a682edafb49752a6e6652574d56919e1ab3190f6",
-      "source_blob": "76491a605a8a97dbb9e797c294462e013d069992"
-    },
-    {
-      "bytes": 11216,
-      "mode": "100644",
-      "path": "algorithms/rust/benchmark_python.py",
+      "path": "ergodis/python/run_benchmarks.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "59aee0b4dd4b64f8ebd0b23b9fab79e90ab2c23bd380149d37b4eb554604d9a4",
-      "source_blob": "7090b5de4eec63644fef34341c7fed3f54a86650"
+      "sha256": "c05fcc52863b9d2e19f5c179402ecbb2f956d6e2177ca85dbac4b2729ea4a33d",
+      "source_blob": "1cb7f83ed5c76476730a252caf71900b46bf41e2"
     },
     {
-      "bytes": 955839,
+      "bytes": 59238,
       "mode": "100644",
-      "path": "algorithms/rust/evidence/benchmarks.json",
+      "path": "ergodis/python/test_algorithms.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "7552d4244415a05b92c122ab9a6bf14af9e617d0dd95020eb997c5d5ac322f2f",
-      "source_blob": "590871d19fc57046b0a77f4c805e337154c82e9e"
+      "sha256": "2cc4fa79b2657d0ae5557ad2dee54fd3c918bc46fa98765cc280646e5cb1e87b",
+      "source_blob": "33fb17ce4b737c543b5a593875082f2bf03eb098"
     },
     {
-      "bytes": 331,
+      "bytes": 2204,
       "mode": "100644",
-      "path": "algorithms/rust/examples/data/compose.json",
+      "path": "ergodis/python/verify_baseline_encodings.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "b7e76fc9135564f79ab8b9ceefa5d197f9bd8f3c10ef0eeda93a30bd44fdcfbb",
-      "source_blob": "699f758bbfe1f1a5774508787b85541f207478f5"
+      "sha256": "65ece2f92f196713a043bf845b41263de52f3a2082afafc3f7aeb8b347a4074f",
+      "source_blob": "48efd62bb4df96a47aca895e752e239819bb77ba"
     },
     {
-      "bytes": 121,
+      "bytes": 73450,
       "mode": "100644",
-      "path": "algorithms/rust/examples/data/schedule.json",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "3b3ed52ced0fe83e31fd2743ae4d47adef20427d2b3433e7615500a4ddb67185",
-      "source_blob": "a1c51f8b01f25b79cf039e86a94d1984ea0172e0"
-    },
-    {
-      "bytes": 5400,
-      "mode": "100644",
-      "path": "algorithms/rust/examples/gf27_balanced_dfs.rs",
+      "path": "ergodis/src/applications.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "eca867eb6542c52581106ad3132282633bc6550ca5668549283e6c9f3219d7a7",
-      "source_blob": "6aa11499d3618c890c7505f2f808de97c347431f"
-    },
-    {
-      "bytes": 1275,
-      "mode": "100644",
-      "path": "algorithms/rust/examples/gf27_balanced_probe.rs",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "c64ca8b00f1adc5d66b0416c56a48bf8bfd818817cbd4af6210167486d8205c9",
-      "source_blob": "103931f992a998d7496400ba4de20772c45fed83"
-    },
-    {
-      "bytes": 3001,
-      "mode": "100644",
-      "path": "algorithms/rust/examples/gf27_prefix_probe.rs",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "5790567172e951775e7a3e94a2ee2e67b06b3e7e4086c4cf1e24f647a29cab62",
-      "source_blob": "36430fbd92ceabbbe0729e37921e546ef9c68599"
-    },
-    {
-      "bytes": 13094,
-      "mode": "100644",
-      "path": "algorithms/rust/generate_fixtures.py",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "c56dc97293e800fca15eb526cccab458087a75aafb2702ef43b2ed8b22239684",
-      "source_blob": "9f27e2702afa18707e84d66dec244f59e00bafe2"
-    },
-    {
-      "bytes": 495,
-      "mode": "100644",
-      "path": "algorithms/rust/proptest-regressions/scheduler.txt",
-      "rewrites": [],
-      "role": "support",
-      "sha256": "dfbfc0cb02970709db69b5df7d48d3e99f54065d108331cb2d9db7ad691039f9",
-      "source_blob": "4766ae48a9c98dc944b016e8c55abdf719e33a9d"
-    },
-    {
-      "bytes": 27297,
-      "mode": "100644",
-      "path": "algorithms/rust/run_benchmarks.py",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "cdce4036e261ac6a42925d09d90d83c097a1d2e6179fb501830882b1b9899e87",
-      "source_blob": "bc61326374309ad48c8dc827b55a471b56326431"
+      "sha256": "83331b71a12bfef3ed56e7bf2b780430281933f53c9c2449104a59b87650565b",
+      "source_blob": "952a30b348cf5d444fd670db1a26e533d87a2462"
     },
     {
       "bytes": 1982,
       "mode": "100644",
-      "path": "algorithms/rust/src/arena.rs",
+      "path": "ergodis/src/arena.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "90f58962c6be56ae41ba0e5902d4888b1e3d524eb7dafa91caa6559930b5dddf",
       "source_blob": "3acaabed0dba5aefe042fc1aeb1f901d02986539"
     },
     {
-      "bytes": 122086,
+      "bytes": 126284,
       "mode": "100644",
-      "path": "algorithms/rust/src/balanced.rs",
+      "path": "ergodis/src/balanced.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "6b5067b95cc4ab15ab23eb5a6c020e8c41f0fb3599782e5664ea9f2f06205fe2",
-      "source_blob": "855cf5dd13b5b2f2dedda083f4f3aff1325e0f20"
+      "sha256": "8bd406d341d9b282743ea3c7cac6f28fed509b87b31dbcc545d5d29871762f4a",
+      "source_blob": "a8bf0d4c1fba57d8d5a96981a89cd1566c7b4d05"
     },
     {
-      "bytes": 16875,
+      "bytes": 46401,
       "mode": "100644",
-      "path": "algorithms/rust/src/bin/bench_kernels.rs",
+      "path": "ergodis/src/bin/bench_kernels.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "1f87c78446e59b3b554d560473a82137a7f18e18097886724c39241c4181c030",
-      "source_blob": "c566bcb6fb9cd7e6a5a8e2552155d14657434930"
+      "sha256": "81234ff8c53bba702b05cd579c443f422082e1e97278617895bad53ded5ee4d9",
+      "source_blob": "356bf5dae9081bdbf06ad71b56128f32415a0ad2"
     },
     {
-      "bytes": 11348,
+      "bytes": 56481,
       "mode": "100644",
-      "path": "algorithms/rust/src/bin/ergo-comp.rs",
+      "path": "ergodis/src/bin/ergodis.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "038ca595e9852ea14a5d8fd3c3ebee3b7873900e1b348f5c5506c87ce5654c05",
-      "source_blob": "bebef5a5d6deeb14331e403a45cd607b02bdd35d"
+      "sha256": "a7093e6ef2b1bcbd8a4727c3472740457ab150144aefa4e4ecf6269491e4d104",
+      "source_blob": "681489412fda0807aa3c075edbeae86e70014619"
     },
     {
       "bytes": 1697,
       "mode": "100644",
-      "path": "algorithms/rust/src/bitset.rs",
+      "path": "ergodis/src/bitset.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "65d24443d964758faa5e9c7a39f91008bdc9755937d321c5712f953afb20d4ab",
       "source_blob": "ec888a997e46489ef28d4e6cc65ffc54541df8b2"
     },
     {
-      "bytes": 22948,
+      "bytes": 58593,
       "mode": "100644",
-      "path": "algorithms/rust/src/composition.rs",
+      "path": "ergodis/src/composition.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "9175ca23d80a5c5c47598cb9e33f3fafa11b88992b51ef1278c2b9c0fe924f09",
-      "source_blob": "12b30b2ed94fd024e51d52496f3ba6475b036f14"
+      "sha256": "390bdd5983bf1e1c52536cd2d84709cf431f490a1d670d0042f266bbd85b18a4",
+      "source_blob": "0c3348ab1b72f3d634c25b1992ba1a6e433523f0"
     },
     {
-      "bytes": 14882,
+      "bytes": 16396,
       "mode": "100644",
-      "path": "algorithms/rust/src/confinement.rs",
+      "path": "ergodis/src/confinement.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "ead65a9ce9b6ccac2c8b9c4e0878994a2ec010d2de3c01757222ffbf58482afc",
-      "source_blob": "28fd9ec092fb657a1e849c089cc315164772d9ae"
+      "sha256": "41f0880007b7c88bb7d4ac59ffc5ac887be3be3c3f3e0301705ed001ce62589b",
+      "source_blob": "e0778817cd14aad578f5498ecc980af995c9365d"
     },
     {
       "bytes": 41966,
       "mode": "100644",
-      "path": "algorithms/rust/src/defect.rs",
+      "path": "ergodis/src/defect.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "4dddc1a08a35cb6781552f4930964844ad29985947e44f2a602334147a964bcc",
       "source_blob": "c8c2d4ce7e9875c7793ffcd4d53d4f8bdd1d8cd5"
     },
     {
-      "bytes": 2298,
+      "bytes": 6251,
       "mode": "100644",
-      "path": "algorithms/rust/src/field.rs",
+      "path": "ergodis/src/field.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "bb5ebf4cdfef2d662495b99c36edeb17763ae46eaa502886c13908334df80174",
-      "source_blob": "7ddaa0a63ae645b239eb128b5c6348e84ef0f7df"
+      "sha256": "b17104668595d325797c9ded09d14ed26bd6429a131292983ac730ddf225080c",
+      "source_blob": "cdf8e9c48dd803dbcacce9f77173473311171105"
     },
     {
       "bytes": 2263,
       "mode": "100644",
-      "path": "algorithms/rust/src/incidence.rs",
+      "path": "ergodis/src/incidence.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "c08202c2da10e5fc3817e7d0e10f2686c4afb4eaf1120eabe67f5deefe75272a",
       "source_blob": "0d403a4d8d6b1e4985ee344e7dbc9456fcf032ce"
     },
     {
-      "bytes": 1719,
+      "bytes": 2816,
       "mode": "100644",
-      "path": "algorithms/rust/src/lib.rs",
+      "path": "ergodis/src/lib.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "973ab413c81b9b21dcda20f14c3d9e713b8af49cc6c8879246e9b19ce938087b",
-      "source_blob": "925fbab357d1f02ceea76ff6bad9a4eaeec9b88e"
+      "sha256": "69056cdcb4aa3b789f351f1ba39f551b973e5550be618b3745f3b208b5964af9",
+      "source_blob": "51533308bdc556eada347c6e96408215d370e9db"
     },
     {
-      "bytes": 5770,
+      "bytes": 8280,
       "mode": "100644",
-      "path": "algorithms/rust/src/matrix.rs",
+      "path": "ergodis/src/matrix.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "03fe98e7c4ce75e886a5db74af67f5b0f0d605e2e93bbda4bf3793c9c816ea15",
-      "source_blob": "53015bb035c211a0766eeef9f24f8c071e2970be"
+      "sha256": "384ef4b1a557c2dcd94103bd9be790d800639d2c5c1dd21e8d029929c10ad260",
+      "source_blob": "1db1b1165a54416721f45ac0627675ee9f078041"
     },
     {
-      "bytes": 39338,
+      "bytes": 45902,
       "mode": "100644",
-      "path": "algorithms/rust/src/orbit.rs",
+      "path": "ergodis/src/orbit.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "639052ccfa7ac8e02b05e5a459ec603bcc45c4cfb3adde9c42726c62ca18e4a3",
-      "source_blob": "1d0458804f374a153e4dad61eef4e485fd9e08c0"
+      "sha256": "001a6d5715d1891ed3dc539430627f9666c4d57fc722ae3770fec737e8532074",
+      "source_blob": "167a0f5fe63a6146b03268fa0fd096c30063117e"
     },
     {
       "bytes": 26358,
       "mode": "100644",
-      "path": "algorithms/rust/src/orbit_compile.rs",
+      "path": "ergodis/src/orbit_compile.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "a3a6686522cbe1018bc8e9586c5669b5c435ff97859d562be5246320e894843e",
@@ -545,7 +698,7 @@
     {
       "bytes": 4194,
       "mode": "100644",
-      "path": "algorithms/rust/src/packed_ternary.rs",
+      "path": "ergodis/src/packed_ternary.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "a41afc7304ba0fe97aad2bc753ea39a75d9bef7944fa6fe8225ea3a0e41ddcf7",
@@ -554,101 +707,101 @@
     {
       "bytes": 8202,
       "mode": "100644",
-      "path": "algorithms/rust/src/projective.rs",
+      "path": "ergodis/src/projective.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "faf88d3728f622d7dc429fd6d1966d910c6354e97c92af664b6af6cff6f0fc43",
       "source_blob": "60ea1f99990344638ce145d7cda68ae5a1eccf9c"
     },
     {
-      "bytes": 82014,
+      "bytes": 88441,
       "mode": "100644",
-      "path": "algorithms/rust/src/scheduler.rs",
+      "path": "ergodis/src/scheduler.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "11a24eb7bc2f82b3eb348163de23db0a712c8662ba654c07ae69ab430d9ab8a0",
-      "source_blob": "ceb44f6df687e7366796384a29ec2a19e90a9268"
+      "sha256": "157a3c662868acd8f7ae5e65ec8f4855bf37cc17617eac53297d6338c43e58ef",
+      "source_blob": "4d76eda27d43d449a3cb58a39a14220c12521e5c"
     },
     {
       "bytes": 6830,
       "mode": "100644",
-      "path": "algorithms/rust/src/span.rs",
+      "path": "ergodis/src/span.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "9c8b1d7ad3a745cfebad77167ac3b4bbe4a19cdc7a31031d7d6c7f8b26f379d0",
       "source_blob": "43a437c1e99f8bc86cf73901f73bb8b680986365"
     },
     {
+      "bytes": 27314,
+      "mode": "100644",
+      "path": "ergodis/src/transfer.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "332d982883923869c372ea05064b72e84a347b59b7d768ae99307a533fdf7545",
+      "source_blob": "6599be43383dc783a89f62dfd7284e7a3e33aea5"
+    },
+    {
       "bytes": 1781,
       "mode": "100644",
-      "path": "algorithms/rust/src/witness.rs",
+      "path": "ergodis/src/witness.rs",
       "rewrites": [],
       "role": "support",
       "sha256": "fecdb03882f0de77884ba335c94563ab0129bce8b42d15c56a129bb5621ba2f8",
       "source_blob": "3090267205a776dd73e9fcd68a562f94d79fc0a9"
     },
     {
-      "bytes": 290419,
+      "bytes": 36439,
       "mode": "100644",
-      "path": "algorithms/rust/tests/fixtures/python_span_cases.json",
-      "rewrites": [],
-      "role": "verification",
-      "sha256": "8df21e73c1b4bae749881510c5c18d3bc7dad2957216574f445d9a9d9a5ebc2e",
-      "source_blob": "fcf09690113abc06396065155f9fc53bb5dce6ca"
-    },
-    {
-      "bytes": 14796,
-      "mode": "100644",
-      "path": "algorithms/rust/tests/python_parity.rs",
+      "path": "ergodis/src/zdd.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "2adac792988e219b206f44defbc23c5e603790fa5da869de6236abf87e94310c",
-      "source_blob": "2d3ffbf0ab219b77a7fc4fb19c440976e90d32be"
+      "sha256": "d56e1da914bcb90cabccb1b721e531b2da77a472824c6893691684300d70c4b3",
+      "source_blob": "39981ed65c393a91e4ee02c1abcaba44ea2603c8"
     },
     {
-      "bytes": 59238,
+      "bytes": 8528,
       "mode": "100644",
-      "path": "algorithms/test_algorithms.py",
+      "path": "ergodis/tests/cli.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "d7f37bb727fe843855d5a70e07765d72e23782ad20934494ea47dd0a15d8e58c",
+      "source_blob": "16ce0843832dc3d59f7facd0881cb57846dbe7f6"
+    },
+    {
+      "bytes": 304316,
+      "mode": "100644",
+      "path": "ergodis/tests/fixtures/python_span_cases.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2cc4fa79b2657d0ae5557ad2dee54fd3c918bc46fa98765cc280646e5cb1e87b",
-      "source_blob": "33fb17ce4b737c543b5a593875082f2bf03eb098"
+      "sha256": "a84c5b8193d278d05cbcbffae91f7d65e44acc0bbb1afed80fb2972b3a50b6ee",
+      "source_blob": "c68cad0c987612f8735d1e236443765224d43b30"
     },
     {
-      "bytes": 256960,
+      "bytes": 24214,
       "mode": "100644",
-      "path": "complete_repair_ports.pdf",
+      "path": "ergodis/tests/python_parity.rs",
       "rewrites": [],
-      "role": "release-output",
-      "sha256": "6f640e9351341260e8adac5ad1ebd831a1aa8ffc70fc08ee337e9ca6fd569fef",
-      "source_blob": "87ea1d6bad2d6b3c8178def5491d7f8a30b8c2db"
+      "role": "support",
+      "sha256": "89ae656e1994df3d9ad80edc4f7f409d5188ea662a104fdbdae136545cc345e1",
+      "source_blob": "a5aacb684d5bb852ffd59a280418bcfc953e8ddf"
     },
     {
-      "bytes": 13670,
+      "bytes": 1959,
       "mode": "100644",
-      "path": "complete_repair_ports.tex",
-      "rewrites": [],
-      "role": "manuscript-source",
-      "sha256": "4bd5b8cec3688cb56a500c77f1c3d09ad29733dfab8793d46b923e425039693b",
-      "source_blob": "90e317acb95fabe2112437d96668f711f6b54a79"
-    },
-    {
-      "bytes": 1181,
-      "mode": "100644",
-      "path": "figures/ergo-comp-cpsat.tex",
+      "path": "figures/ergodis-benchmark-highlights.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "5920b8f41de2b121ad061292ee23ba1033a841b149089ec4594078d636c707f8",
-      "source_blob": "08e3f82726949d84b5a1cb714c0cb8674eae46ae"
+      "sha256": "b6e39f1e919f8a007ae41f0fa1f6d9b970805cc3671e3d8b129c9b49c97f670f",
+      "source_blob": "61d32242e574d4154606d63fff4c1f0f6dccf7f4"
     },
     {
-      "bytes": 1156,
+      "bytes": 1330,
       "mode": "100644",
-      "path": "figures/ergo-comp-pipeline.tex",
+      "path": "figures/ergodis-pipeline.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3fb8fefcc42c048c0afb6d117653ea343adef62ee045e1a015660a564bbb9151",
-      "source_blob": "780716bd5ecc2309aecdcbd2ac86173733797ff7"
+      "sha256": "abbc2d2a889e6ed03ab45d3062ecb868a4b2d30a500db8b7468c0860e64f8b2d",
+      "source_blob": "2d1b6b2659d519dfd4a5125d573c7886996d3127"
     },
     {
       "bytes": 1752,
@@ -786,13 +939,13 @@
       "source_blob": "e85dfe7575c616ac5421848bafb92933af347954"
     },
     {
-      "bytes": 9845,
+      "bytes": 11441,
       "mode": "100644",
       "path": "lean/verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "62716ab47a1232de05e971a6c7f31c5e231ba4b8fdc39962ed07cb93df835c0a",
-      "source_blob": "417de7d4eb6c42891963b3f54b69d63dae39caf6"
+      "sha256": "704279e4dfab670a993b2d8ef16ffcec1f66d61adf491ef3764a9eb8a42cef60",
+      "source_blob": "25f843cc136dbfa592864a4859a537d732ae583c"
     },
     {
       "bytes": 506,
@@ -804,13 +957,13 @@
       "source_blob": "9f99babb29c38138aa68c8a8eae5c1caf9b61635"
     },
     {
-      "bytes": 15390,
+      "bytes": 16990,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ca56c15a3ded767c433096a01b6fbab8a653f1233be988d71df4d588b421cfa7",
-      "source_blob": "1d5576d3882001680bd5c5c6d75644af811ca021"
+      "sha256": "b0c51a9a621bb3390c8fc29971f692f81a9373038e1e0ee33e981762ab6b5aae",
+      "source_blob": "f72e050489ae93e1bf8bf4462c66d13e6ffcbfe2"
     },
     {
       "bytes": 3013,
@@ -831,22 +984,22 @@
       "source_blob": "ca51e2ff7818622f9de02353a4ec687ce1392d83"
     },
     {
-      "bytes": 25946,
+      "bytes": 34233,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "459b13bf99b3c4049219f870eae8f8f15e93e052c6a7065abad474fd7763dc81",
-      "source_blob": "d9641f8e6f1fe789af629430396ae35697ee08e1"
+      "sha256": "49c8e906614fcf5539ea0453fab44fd51679978ccbd6bb40ef35d607bd435ad2",
+      "source_blob": "31c6b5c7ef84db3da879c09d9c1728583c3a8d72"
     },
     {
-      "bytes": 8541,
+      "bytes": 11073,
       "mode": "100644",
       "path": "sections/03a-exact-recovery-optimization.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "04824b8e10ba3de265c1c5e317bdedfd7958dfd417dcfc105e44d5631ecc4fb4",
-      "source_blob": "01b9fb5cda074a54a211a2c404fcbde136f1e71c"
+      "sha256": "cadf9f74275d077585312bfba8e0efe231f86b301d6b6b5ed634d02bddad81c4",
+      "source_blob": "8266475cd4d99457ce3d57b27a58f8612aa69717"
     },
     {
       "bytes": 12057,
@@ -885,49 +1038,49 @@
       "source_blob": "81294dbe1026c62303acda3a2f7e3e59eab37306"
     },
     {
-      "bytes": 3055,
+      "bytes": 3458,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "301988e5f30d41863df6f41932c33f7753f4fed8d9206c4039e268ba38ea08d6",
-      "source_blob": "9d2aefeba40fee20b57a2b5b0325519d63e98596"
+      "sha256": "1af8d0ff663c94b7c39fd7718554033722132cb906ed8ad1dda388b8cce4aec0",
+      "source_blob": "f40ac064e2dbad2e49658ba84e37fa96c2b0c09f"
     },
     {
-      "bytes": 1509,
+      "bytes": 1507,
       "mode": "100644",
       "path": "sections/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "d018e9d23a59ef2e311c8cc8a9ffa1f225d0b6880672065beac15ea9c16479b2",
-      "source_blob": "e5250c90e17d8cd9164673f39b2618d5bdd1df11"
+      "sha256": "28047bc72e7913d11335557218dad829ce9fdc70706ec851988eeeefd868b893",
+      "source_blob": "d95cca2402c3998fce6f62764d4a3b63cf80c421"
     },
     {
-      "bytes": 3134,
+      "bytes": 3125,
       "mode": "100644",
       "path": "verification/README.md",
       "rewrites": [],
       "role": "verification",
-      "sha256": "1867c751373445474b1154763961775a86f1df87740847d074af28dbd2e75cd4",
-      "source_blob": "2760df339cb05c050687ebf4f74d3374bb84fc17"
+      "sha256": "e88e9f811b9ca8e370a4a8d0693e10b18627082e1847c3a87612c099ac558eef",
+      "source_blob": "97f3ec9169c41728079c1aaba935ab5abfb6b6c3"
     },
     {
-      "bytes": 3124,
+      "bytes": 3095,
       "mode": "100644",
-      "path": "verification/check_ergo_comp_public.py",
+      "path": "verification/check_ergodis_public.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "ab64c5714da196b111871b31c2c26cd955cec7bcd9735ea12b526897ae5d348a",
-      "source_blob": "eeeac0e0039448a408e27d6ec21f8dc9cb1f64d3"
+      "sha256": "c94cb42f49200c538050580e4d8b8eff69ddd3f4e04f7f4cbeaa6b708e1b00b1",
+      "source_blob": "2305b0cf70df83efaba973fd7fa8bbd875c4ce55"
     },
     {
-      "bytes": 3462,
+      "bytes": 3861,
       "mode": "100644",
       "path": "verification/distribution-files.txt",
       "rewrites": [],
       "role": "verification",
-      "sha256": "5428a510fdaaed520b583adf835d4161f916930d084cf8e140e4270681c28f83",
-      "source_blob": "c580b38595e398ea5680a5656f379cb5456c3c45"
+      "sha256": "f88c59a79951916e3e956b40d993ff5d7dfe91627531caefde2705da583f3879",
+      "source_blob": "611d607310ea1eb158995eb61aa87144f5e2aaac"
     },
     {
       "bytes": 690,
@@ -935,17 +1088,17 @@
       "path": "verification/formal-boundary.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2aa1ca4047b3cb5e3c6098e7445d59e345d575eb2b4711e2f3d5619fc89ea11e",
-      "source_blob": "e7b61d0138b94da932867a8decb94a1618c2b5e7"
+      "sha256": "a816ff2150fe8969dbd095c5e73a42d7ffc148c5a02c5136a273f0454666f3c2",
+      "source_blob": "4d83f02759ab93f239493a2ea8d23513f1ded4aa"
     },
     {
-      "bytes": 11937,
+      "bytes": 11935,
       "mode": "100644",
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "23e60aa9dee107d0cce3d868b3ffd8b2c9cee3e7b15147223611afdc398857a2",
-      "source_blob": "75be40a8363aeab4e9518daeb1e7d309bcebfcb5"
+      "sha256": "f13b0d1682e63a512737ca9804c5944905ca1f3a554cdb81e063616d746df0a0",
+      "source_blob": "b77506b3e8d50a38bb6a7a959aaa77c588bdbc66"
     }
   ],
   "github": "tavisrudd/complete-repair-ports",
