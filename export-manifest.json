@@ -1,5 +1,5 @@
 {
-  "content_sha256": "319fa136d54b77aa38d0a529f58fe855a4672e93cb0903b188c73a0233900618",
+  "content_sha256": "a8cdc9258c2c0761d1df3357510ebaf3f409b799ff4e128c7923b740feab4a6c",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -40,11 +40,11 @@
       "source_blob": "29a5ae212144620f5c33fdfd32a423bf60c6de53"
     },
     {
-      "bytes": 507,
+      "bytes": 508,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "ae83cf3e83d186b8919a9b8e08c4a0826596e0803941ac83e129f1b2a6f5a084",
+      "sha256": "9f37cafd9287a458fefd765dff196c1c394327bf3978a86eb712b77aacf8aad3",
       "source_blob": null
     },
     {
@@ -111,13 +111,13 @@
       "source_blob": "4726531a80c273670c96e538cf4078327b2b5088"
     },
     {
-      "bytes": 1517,
+      "bytes": 1518,
       "mode": "100644",
       "path": "ergodis/Cargo.toml",
       "rewrites": [],
       "role": "support",
-      "sha256": "7c4bb250c4cd1ba0ec0437cad05082aa1dfc7fe2882306f1443874968f2199c8",
-      "source_blob": "8300794fa0bb5e49e1cf0bf8db40fd0006d75e70"
+      "sha256": "e9ee6aeeab5139a6699b809b401fe64fa8edcfb56d568e376f8325133786ae8e",
+      "source_blob": "387bf03ce0a6d6bb5d7a352f62565e46ba1545c4"
     },
     {
       "bytes": 10098,
@@ -1101,11 +1101,11 @@
       "source_blob": "fce518f400629fad43aa9f9999d97c9210a30e45"
     }
   ],
-  "github": "tavisrudd/complete-repair-ports",
+  "github": "tavisrudd/compositional-recovery",
   "main_sources": [
     "complete_repair_ports.tex"
   ],
   "manifest_self_excluded": true,
-  "repository": "complete-repair-ports",
+  "repository": "compositional-recovery",
   "schema_version": 1
 }
