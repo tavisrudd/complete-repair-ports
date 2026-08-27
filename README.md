@@ -180,7 +180,5 @@ archive of this rewrite.
 
 ## License
 
-The `algorithms/rust/` software is licensed under the GNU Affero General Public
-License, version 3.0 (AGPL-3.0); see `algorithms/rust/LICENSE`. Contact the author for
-commercial licensing of ERGO-Comp. Everything else in this repository is licensed
-under the MIT License; see `LICENSE`.
+The contents of this repository are licensed under the MIT License; see
+`LICENSE`.
