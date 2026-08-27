@@ -1,5 +1,5 @@
 {
-  "content_sha256": "18e9eba9b0a1f8016ae431f0ae15c35ae5ccb252db82cfaa62afc63ccd409215",
+  "content_sha256": "aa514bdd4bf99feb71e01c5a3c64a2cbc1c8c325cd4e3fe5ec129ecc9e599f2f",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,44 +44,44 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "3e77462846b16c348928bd942d87e3b9bf9beb84561cdb97f767429bc84e69a1",
+      "sha256": "4908ce4dfb15ebc210e0f72754de3887aecb15fa985585393d1b9d89463e3b08",
       "source_blob": null
     },
     {
-      "bytes": 9198,
+      "bytes": 9191,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "522e56bed6d5a480a56bbfc7fe356a8c6bbc97c2b0f9bdf44dbf8cf82ae202ab",
-      "source_blob": "7bd209cca20edca4025b7d03fb80670a6ab2f0aa"
+      "sha256": "d0606f4e8ed0c439b523a323947c6fb43a05d3201b743b7f7984b08509f0dbdf",
+      "source_blob": "a6c1d21fedfc3f7e1b86c6ac84a60ab22395bd7b"
     },
     {
-      "bytes": 10569,
+      "bytes": 10620,
       "mode": "100644",
       "path": "REVIEWER_GUIDE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "c2696bb87d8e2c8004ae4d560fc3255f3d451a4c831079cedac639dfd91b2660",
-      "source_blob": "e90fb849bdfa2bfa333e93dc62cf74da277e2514"
+      "sha256": "189993c18abdf7359a61152858caf63348d8c10e45acee8a1a6f408e84a37fc8",
+      "source_blob": "f20d278544931f4f300256d63c4dfcbd102c74ed"
     },
     {
-      "bytes": 284707,
+      "bytes": 311729,
       "mode": "100644",
       "path": "compositional_recovery.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "779955a530bc5b1d16887bd23f8a00bc3d37b194c29cb711af89cd9e9b2b0966",
-      "source_blob": "a4c533afc21eb74cfcbc7f9fb1428b7332e8461b"
+      "sha256": "162d147ef0c7a202b7177c8fbdfad17567b1178f18b0c9aba66c23469a388952",
+      "source_blob": "62328609c58b59935e9302837645ac283c8910e0"
     },
     {
-      "bytes": 14903,
+      "bytes": 18697,
       "mode": "100644",
       "path": "compositional_recovery.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3d363fa6c36c202bbb502ec6077c66dcaf2fe9fc137f58f412da2209f80aa43e",
-      "source_blob": "258cf2a8da475d8d5980e6383cfcdb4e3b64f32f"
+      "sha256": "8afffa4830c19f5431933453c9ebbc8b67ecdc511f3ee7f633213c1b5b44c8e6",
+      "source_blob": "aafe8d13a5fb9af895eb9200bcd2009c12f82f9e"
     },
     {
       "bytes": 9,
@@ -93,13 +93,13 @@
       "source_blob": "b83d22266ac8aa2f8df2edef68082c789727841d"
     },
     {
-      "bytes": 50302,
+      "bytes": 50341,
       "mode": "100644",
       "path": "ergodis/BENCHMARKS.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "5856be2585335ed4bad1c1f6931f6908a5ad5bc477c1e5ac0b9444d8410f6988",
-      "source_blob": "1d6e2c07c06c7be9989346b9cc3c6c08145eb1d7"
+      "sha256": "a7b74290b35ec9f15d9cbaa4a1ebf3cd387d297d93f57a39cc7e432a442de6dd",
+      "source_blob": "d8362c3055bc7281fdbcfdbc6c48ac50fc7fe53b"
     },
     {
       "bytes": 21202,
@@ -120,13 +120,13 @@
       "source_blob": "387bf03ce0a6d6bb5d7a352f62565e46ba1545c4"
     },
     {
-      "bytes": 10099,
+      "bytes": 10096,
       "mode": "100644",
       "path": "ergodis/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "0e568b08cf61d22fa5dec1c684fca4836c7df3f5b2c0e39c663758fd3e31f300",
-      "source_blob": "bf2bed6bef3c4b71997992e6399820250c9c272d"
+      "sha256": "917348c79ff0039bc6abf0d9157ea79e273281dfb1055127f38ea307c82fe2e0",
+      "source_blob": "6870c0c209fcd575c232adb6e69c19d86438f532"
     },
     {
       "bytes": 7004,
@@ -786,31 +786,31 @@
       "source_blob": "a5aacb684d5bb852ffd59a280418bcfc953e8ddf"
     },
     {
-      "bytes": 2160,
+      "bytes": 2303,
       "mode": "100644",
       "path": "figures/ergodis-benchmark-highlights.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "4ef0dd56befc27750f1f8e2535d0692d86242864637e18da65efa6941ecb205f",
-      "source_blob": "665a63ae3864184f4937bafb90eda5caacd51df3"
+      "sha256": "8194001bafaffd2bb7ea1c47df066727f70ac7aa1bd3e2e5843aa6215f610bea",
+      "source_blob": "30dc9a061425e6c32626419209d7bb01b63c6cde"
     },
     {
-      "bytes": 1330,
+      "bytes": 1508,
       "mode": "100644",
       "path": "figures/ergodis-pipeline.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "abbc2d2a889e6ed03ab45d3062ecb868a4b2d30a500db8b7468c0860e64f8b2d",
-      "source_blob": "2d1b6b2659d519dfd4a5125d573c7886996d3127"
+      "sha256": "ec7a041b6e7f0f223d2c44082fb4952ffe580569835e8989e2c354faac57dd6a",
+      "source_blob": "90ef8fd9a2d9ffada9a61ea221bed241e08396a5"
     },
     {
-      "bytes": 1752,
+      "bytes": 1858,
       "mode": "100644",
       "path": "figures/information-hierarchy.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "74eb922a4750ace833a2b8f4d5a81c7266ca6c614c2fa5e9f95704a9ef720d4a",
-      "source_blob": "5fe0c30e07762360fedb8ec5be07f13a903a2d2a"
+      "sha256": "c3d6a2cfe4026a7695c5717425be249e00c7ce1593ccb4723a498b9124345bef",
+      "source_blob": "1ec4d4c48bf27436045bbc319b0213c413e606d0"
     },
     {
       "bytes": 567,
@@ -849,13 +849,13 @@
       "source_blob": "67acf1593e2296fb8c45a35179816a8cd82c6693"
     },
     {
-      "bytes": 1388,
+      "bytes": 1385,
       "mode": "100644",
       "path": "lean/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "4a1a337322f59be1dd05bfb94b467a26ee091e338b72ec1aab2f91bd871df85a",
-      "source_blob": "d264c70c67ea1a74419f563a6ad3969b572fc527"
+      "sha256": "d3a312fff28418cafb61778bca3c6ba3ebfc740d0569f0e804e6e3f07be4c934",
+      "source_blob": "ff197c8667ab1775dbb1deb4231101c5b677a603"
     },
     {
       "bytes": 3976,
@@ -957,112 +957,112 @@
       "source_blob": "9f99babb29c38138aa68c8a8eae5c1caf9b61635"
     },
     {
-      "bytes": 16990,
+      "bytes": 20205,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "b0c51a9a621bb3390c8fc29971f692f81a9373038e1e0ee33e981762ab6b5aae",
-      "source_blob": "f72e050489ae93e1bf8bf4462c66d13e6ffcbfe2"
+      "sha256": "52489943a5d52359ebff2d8110a5bf0ebdc243c1269f41f10a7ee05287fb11a2",
+      "source_blob": "c9245c2b9cfa87c432a8c0a3a38f3cdf9c1c8964"
     },
     {
-      "bytes": 3013,
+      "bytes": 3206,
       "mode": "100644",
       "path": "sections/01-complete-ports.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "fe1fd66b0055508c0f0fe5b783b49488d9a8461a4a86fa2a31f6d445864871af",
-      "source_blob": "a03729293d6c732cf852007ede726c71eb65bd08"
+      "sha256": "ec532d6ee3e01104196bbc6a25ce9d2a1040ae05ef4585c6a5588cb10f283223",
+      "source_blob": "fdc2dccfa833a1e9cee2c4289ab8e8f441fc0801"
     },
     {
-      "bytes": 8935,
+      "bytes": 9570,
       "mode": "100644",
       "path": "sections/02-confinement-transfer.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e01e880229f695d4308ee3e508bc1cd164dde969728d11969e6e7742ac92c075",
-      "source_blob": "ca51e2ff7818622f9de02353a4ec687ce1392d83"
+      "sha256": "102d3e997d298fb6b475072e54bfc0070f6208f56464745bce0fd756245ef202",
+      "source_blob": "864c4702b35c5498a22968c8aa335824cdec75ff"
     },
     {
-      "bytes": 34233,
+      "bytes": 38984,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "49c8e906614fcf5539ea0453fab44fd51679978ccbd6bb40ef35d607bd435ad2",
-      "source_blob": "31c6b5c7ef84db3da879c09d9c1728583c3a8d72"
+      "sha256": "47e0e768de4460568da46a5975c7a4e09ae8fa36372d18f982add913f8fe5c45",
+      "source_blob": "9ebcbeb835a1d13e8cec81fea4b1a24318bf0fd1"
     },
     {
-      "bytes": 11073,
+      "bytes": 13447,
       "mode": "100644",
       "path": "sections/03a-exact-recovery-optimization.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "cadf9f74275d077585312bfba8e0efe231f86b301d6b6b5ed634d02bddad81c4",
-      "source_blob": "8266475cd4d99457ce3d57b27a58f8612aa69717"
+      "sha256": "eddae93ed1fd17b568954c27a564d5507da3b90bee6625cda08c5f4b681d3cbf",
+      "source_blob": "58c05cfe83cebf06046f3ff66df23687171df833"
     },
     {
-      "bytes": 12057,
+      "bytes": 14125,
       "mode": "100644",
       "path": "sections/04-reliability-exit.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "04545c7d7c5b8b642ab985454a3dbaf7c6a0250a99941911fa9677bd2b3a7ba1",
-      "source_blob": "7a9f8750396c57cdf797e950291d6735560e7842"
+      "sha256": "c90a0353652ee48f47e1cf86b97ccad76a18d88a3c97cc36756311c54af410bc",
+      "source_blob": "dc15ac58e031988cd2ea3be9ad678d5a018ca144"
     },
     {
-      "bytes": 10065,
+      "bytes": 11721,
       "mode": "100644",
       "path": "sections/05-pointed-tutte.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "8e5ac7ed3f0fe314989370d512ef2a04c1a5a14a018ce1d9f18b4a4a57da63a2",
-      "source_blob": "d10fe44f56bb1505ffec9b052ead7514fe057dd8"
+      "sha256": "5ad008b7c8a6a13d01bbfc3f96d6d6c1a173ded1b3b1ed59dfe3418d3164f328",
+      "source_blob": "714ec0b8dc5ea603492d8b725f214ac14ecd351c"
     },
     {
-      "bytes": 7926,
+      "bytes": 9049,
       "mode": "100644",
       "path": "sections/06-geometric-flagships.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "19e4da2ffaf104fb3c77eee03fbe261b4883ff05b3220b92f381a9ca407a1ba1",
-      "source_blob": "13cd1daad6678af85133bfec89d66d64bc36d5de"
+      "sha256": "60aeaddd8b21739614d8505e0c52f3113a15d4b57bb89d9e06db1d2979b5a709",
+      "source_blob": "cb5e09c1bbf5a5e95a7150e15cbcaa61e59edbc9"
     },
     {
-      "bytes": 2315,
+      "bytes": 2437,
       "mode": "100644",
       "path": "sections/07-verification-provenance.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "4be2ff8fdcbd079b7df0b93a9b16fdee933576a9f18638093e8af891ed541eab",
-      "source_blob": "81294dbe1026c62303acda3a2f7e3e59eab37306"
+      "sha256": "ded92a309943f2c41264de8b08d6bac3b9a9859e511b31225e0092b3085acb5b",
+      "source_blob": "5931a9cc122bf54e5901e3ca738b229ee7d02b55"
     },
     {
-      "bytes": 3458,
+      "bytes": 3547,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "1af8d0ff663c94b7c39fd7718554033722132cb906ed8ad1dda388b8cce4aec0",
-      "source_blob": "f40ac064e2dbad2e49658ba84e37fa96c2b0c09f"
+      "sha256": "08eed3d3322abb3650cd7045079661894e6d7d18c0e45f4f38bc3acfa06f1ee2",
+      "source_blob": "5872749988109e83c448675d7da8528b082c189f"
     },
     {
-      "bytes": 1508,
+      "bytes": 1511,
       "mode": "100644",
       "path": "sections/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "76b6705b595b369776f09d16eca2113f6de4c519c938bd07e36265d5738e554d",
-      "source_blob": "7b603456a5e48dd0a8ed10d4f1062519abc2a245"
+      "sha256": "d4eef10d0d98cdb4dd18024e037c10bd4d75cc172c6f0f47b498bdb7fd137e57",
+      "source_blob": "17d12e213978e80b66efd9f2b5a5812d83ffc782"
     },
     {
-      "bytes": 3125,
+      "bytes": 3124,
       "mode": "100644",
       "path": "verification/README.md",
       "rewrites": [],
       "role": "verification",
-      "sha256": "e88e9f811b9ca8e370a4a8d0693e10b18627082e1847c3a87612c099ac558eef",
-      "source_blob": "97f3ec9169c41728079c1aaba935ab5abfb6b6c3"
+      "sha256": "1db01c9796f221a2db24e347ecdea58786fb4d23cb541a148e6a0a3638383562",
+      "source_blob": "500283c4fc13979562d74efa1deb4d802767fb8d"
     },
     {
       "bytes": 3095,
@@ -1097,8 +1097,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "e20872f07ad19ac3113f64ac1baa4a721c5650291dc962dcc840fb9a4127ba13",
-      "source_blob": "8b36c20f9b9a8f5b5d48a9b505f65105f22c8e9e"
+      "sha256": "b3d0d6c0bc580147c8355ccdd0a4d67f3b0b09a93b0525dd01622b292b4e309a",
+      "source_blob": "d6456c2a92f54c7931bd183011f2af0e44bd8a1a"
     }
   ],
   "github": "tavisrudd/compositional-recovery",
