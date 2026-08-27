@@ -1,5 +1,5 @@
 {
-  "content_sha256": "aa514bdd4bf99feb71e01c5a3c64a2cbc1c8c325cd4e3fe5ec129ecc9e599f2f",
+  "content_sha256": "04eb94d82796c4f52d6f688bc191ddfde42a4b3c0fc5361b193d9fb516da0d9a",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "4908ce4dfb15ebc210e0f72754de3887aecb15fa985585393d1b9d89463e3b08",
+      "sha256": "c6f66dd68e6de053b418f03e15d36c8f7b170c380985b3817625097d64191104",
       "source_blob": null
     },
     {
@@ -66,22 +66,22 @@
       "source_blob": "f20d278544931f4f300256d63c4dfcbd102c74ed"
     },
     {
-      "bytes": 311729,
+      "bytes": 312636,
       "mode": "100644",
       "path": "compositional_recovery.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "162d147ef0c7a202b7177c8fbdfad17567b1178f18b0c9aba66c23469a388952",
-      "source_blob": "62328609c58b59935e9302837645ac283c8910e0"
+      "sha256": "a395c22a12e6671c84c56d3496d6a4b862cef19f67bd215a6e5b64ae951d753f",
+      "source_blob": "97b80d0983f01cd6c6a071eb08504618171c19d1"
     },
     {
-      "bytes": 18697,
+      "bytes": 19014,
       "mode": "100644",
       "path": "compositional_recovery.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "8afffa4830c19f5431933453c9ebbc8b67ecdc511f3ee7f633213c1b5b44c8e6",
-      "source_blob": "aafe8d13a5fb9af895eb9200bcd2009c12f82f9e"
+      "sha256": "f8d9a414e0b157f350fd252740f036f0eb821886779d247b3b981d6d9d885548",
+      "source_blob": "fe2294284e003ea233263767cb0fff98cefc2c8a"
     },
     {
       "bytes": 9,
@@ -984,22 +984,22 @@
       "source_blob": "864c4702b35c5498a22968c8aa335824cdec75ff"
     },
     {
-      "bytes": 38984,
+      "bytes": 38981,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "47e0e768de4460568da46a5975c7a4e09ae8fa36372d18f982add913f8fe5c45",
-      "source_blob": "9ebcbeb835a1d13e8cec81fea4b1a24318bf0fd1"
+      "sha256": "9ac3df8bf8012ee519817b65eed337e8bc21acdf3d57d29fa5335d25dc27b494",
+      "source_blob": "ced6b0b99d49ff64b8e108598ecc4ac048d9d797"
     },
     {
-      "bytes": 13447,
+      "bytes": 13806,
       "mode": "100644",
       "path": "sections/03a-exact-recovery-optimization.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "eddae93ed1fd17b568954c27a564d5507da3b90bee6625cda08c5f4b681d3cbf",
-      "source_blob": "58c05cfe83cebf06046f3ff66df23687171df833"
+      "sha256": "0602ae9f4404cb0bcc4b15e256a48cc2f20e3692fe6387d0a5385a5294ef4d58",
+      "source_blob": "31265f8604abf7e60b89190a85a73650332c3f52"
     },
     {
       "bytes": 14125,
@@ -1038,13 +1038,13 @@
       "source_blob": "5931a9cc122bf54e5901e3ca738b229ee7d02b55"
     },
     {
-      "bytes": 3547,
+      "bytes": 3706,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "08eed3d3322abb3650cd7045079661894e6d7d18c0e45f4f38bc3acfa06f1ee2",
-      "source_blob": "5872749988109e83c448675d7da8528b082c189f"
+      "sha256": "77d4e4d2111aa5cdf437f4a03e589437c3c06272f612e44cf773b696fbbb2a5f",
+      "source_blob": "9fe2e56c2badf9d78bc124d10c2e70eaed0c848b"
     },
     {
       "bytes": 1511,
