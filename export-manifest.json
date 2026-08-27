@@ -1,5 +1,5 @@
 {
-  "content_sha256": "80de49b57c2c8de498d332ba130e5c251dde5d5d5964dee323273a8058846cc5",
+  "content_sha256": "7da5a242aa04cb038c7e40a81c0f35f88ab3be448d8d1fcd7eb696d5907e15ad",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "307fe3bea8dd553577f26e0888e7215de825c57c219c84539ce9f6c2de7632c5",
+      "sha256": "ef425a0664a734d719a2336d0c5c0f4c53c6624b787ef7bba7418b7273d6a312",
       "source_blob": null
     },
     {
@@ -93,13 +93,13 @@
       "source_blob": "b83d22266ac8aa2f8df2edef68082c789727841d"
     },
     {
-      "bytes": 50341,
+      "bytes": 55450,
       "mode": "100644",
       "path": "ergodis/BENCHMARKS.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "a7b74290b35ec9f15d9cbaa4a1ebf3cd387d297d93f57a39cc7e432a442de6dd",
-      "source_blob": "d8362c3055bc7281fdbcfdbc6c48ac50fc7fe53b"
+      "sha256": "1b9c20099415cac0d829ac7872974cca34176d289eacd05ae0a8ad95486401bb",
+      "source_blob": "0520ae6f08ef8af4bd3a70d55baa0db8d1350161"
     },
     {
       "bytes": 21202,
@@ -111,31 +111,40 @@
       "source_blob": "4726531a80c273670c96e538cf4078327b2b5088"
     },
     {
-      "bytes": 1518,
+      "bytes": 1571,
       "mode": "100644",
       "path": "ergodis/Cargo.toml",
       "rewrites": [],
       "role": "support",
-      "sha256": "e9ee6aeeab5139a6699b809b401fe64fa8edcfb56d568e376f8325133786ae8e",
-      "source_blob": "387bf03ce0a6d6bb5d7a352f62565e46ba1545c4"
+      "sha256": "629aa7c3a1b2b915f3d16ecb598a752458dd937b4fc0ecc98ce3163860a5d34d",
+      "source_blob": "e36bf295119385178ec0e1ba5825a6cb94301f50"
     },
     {
-      "bytes": 10096,
+      "bytes": 22405,
+      "mode": "100644",
+      "path": "ergodis/OPTIMIZATION.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "55cb367b7e09cbefd68a26b783bbd650c8f99ff1deff582919f592a70b7dd4d6",
+      "source_blob": "6a8bcb51b67c3f0ef7b07e5b427d22da864e6b2e"
+    },
+    {
+      "bytes": 13453,
       "mode": "100644",
       "path": "ergodis/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "917348c79ff0039bc6abf0d9157ea79e273281dfb1055127f38ea307c82fe2e0",
-      "source_blob": "6870c0c209fcd575c232adb6e69c19d86438f532"
+      "sha256": "220d3c59eeab728f6ca62a095b5b5997df248718bec2f1f667008f7ded52681f",
+      "source_blob": "6ef3c47ba2f61670d855b69813387e9bc7cf65b7"
     },
     {
-      "bytes": 7004,
+      "bytes": 7669,
       "mode": "100644",
       "path": "ergodis/SHA256SUMS",
       "rewrites": [],
       "role": "support",
-      "sha256": "2e72055706cddc09c8d23216ea813fe75ba41e1cc176cc67fe41acc599a86f55",
-      "source_blob": "a79653bf529129c83202650c2b0c6e12d39f499d"
+      "sha256": "2d30c50d262c5a3a5a83bc09d2543f7f607b822f1f65f423d779ebb505a26b1e",
+      "source_blob": "61fd7dcd1af994b9491f7b0c3b2da59540440edd"
     },
     {
       "bytes": 9668,
@@ -154,6 +163,15 @@
       "role": "support",
       "sha256": "784187d4da05abd760198181d8b7906b95ec120c1d6dc7b32e4606476c1e4bbe",
       "source_blob": "dfb5865ebeae59a5bfccc3663b92c2e05113a765"
+    },
+    {
+      "bytes": 13152,
+      "mode": "100644",
+      "path": "ergodis/benches/contextual_state.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "2c56a3a7032c896807af958d45055a70832ec0d84288596d149d243108b1372a",
+      "source_blob": "b1ec1c523ae4e6eb3fba7a284c4e281982646284"
     },
     {
       "bytes": 7578,
@@ -210,13 +228,22 @@
       "source_blob": "032b21e6a8f4627fb2709b2ecc6ffdce6811b0ab"
     },
     {
-      "bytes": 1355379,
+      "bytes": 1406105,
       "mode": "100644",
       "path": "ergodis/evidence/benchmarks.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2cf81db6371771bc6d06b245233d6c3c74565699c9e26394ea7bbdd6ce10a9ec",
-      "source_blob": "6dacf11faa2e3fa55c37e93f3d1dd3709691d62d"
+      "sha256": "79fddca34d9577008cbd4d0a53fae215947d141830f8cf15308e2fb832e85420",
+      "source_blob": "9664f87848e63d05f23635549691ef0d81a90a3c"
+    },
+    {
+      "bytes": 3920,
+      "mode": "100644",
+      "path": "ergodis/evidence/contextual-state-ab.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "01554c7fa45b513770e905eb531bc42fdf3c709e138c8b76b46b1626bd6a900f",
+      "source_blob": "c2f7c6e3668dc31d63cfc2d1c3689f599727ecfc"
     },
     {
       "bytes": 14679,
@@ -399,22 +426,22 @@
       "source_blob": "cbd8468caaa3de600eb7eb2c4e5b72bc2d3bff54"
     },
     {
-      "bytes": 29890,
+      "bytes": 30142,
       "mode": "100644",
       "path": "ergodis/python/generate_evidence.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "31ee22dab424372c8b85de4db662e1a53ebb56e8276ab25de5ff66f32087a260",
-      "source_blob": "838149e61c3c10e27c731dca71aad669253b9400"
+      "sha256": "21d72fc66d3a598654aa585ed8164a507da968b63ec3d84b2a733c86385570f8",
+      "source_blob": "f87f28c59ee2567f4da314f797cc392d2507e1a1"
     },
     {
-      "bytes": 21883,
+      "bytes": 25207,
       "mode": "100644",
       "path": "ergodis/python/generate_fixtures.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "8c4055c4586eda3a98f76e588a4bb50f3cdb8d20ddbe4fd5a40909af11d76d33",
-      "source_blob": "5e461eba7b06aee1356b5372d6bc7a2748866df0"
+      "sha256": "db8c975d6c67bb516e93acbfa35871fa26caf516a9f79451db6e1bb6e52dd364",
+      "source_blob": "2785c8e2ccd36ce1c235dc5b374575fa27e10050"
     },
     {
       "bytes": 11739,
@@ -426,13 +453,13 @@
       "source_blob": "12259c6f6724d264824226daaeb304c95fa527e1"
     },
     {
-      "bytes": 3894,
+      "bytes": 4084,
       "mode": "100644",
       "path": "ergodis/python/recovery_algorithms/__init__.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "c3f3150a7ae0b7947c3c3256c3001ad252e6e82f338f4a4be58caea1a3dfc659",
-      "source_blob": "4db7957a0d637a8bc91ed21095b289a5a7e05668"
+      "sha256": "bc23e058de0be2ee3a18c41ccf6beacf1ee930c89211dd6525895676a30a9aa9",
+      "source_blob": "5a5be8f622388e789863490e99048ab28d53e241"
     },
     {
       "bytes": 21476,
@@ -444,13 +471,13 @@
       "source_blob": "c78376d0bad8c103f25574005b313247862dcd70"
     },
     {
-      "bytes": 39935,
+      "bytes": 57734,
       "mode": "100644",
       "path": "ergodis/python/recovery_algorithms/costs.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2d24c083a602bb39eef6b991fc3c0fa2b5c9fe6315657d5b38b4178a690b0a6b",
-      "source_blob": "93a4eea34c3f902606d56e651dd189b489176772"
+      "sha256": "adfa1b963e51e545318e93c68038204567ba432b3c91ab28d459f408f1e06dc5",
+      "source_blob": "edfa4d4b46603f003f13f39a4ed442dbd593fa19"
     },
     {
       "bytes": 4187,
@@ -534,22 +561,31 @@
       "source_blob": "380e43fa233ee58acc11c77198eb17480654ddd6"
     },
     {
-      "bytes": 65978,
+      "bytes": 71241,
       "mode": "100644",
       "path": "ergodis/python/run_benchmarks.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "c05fcc52863b9d2e19f5c179402ecbb2f956d6e2177ca85dbac4b2729ea4a33d",
-      "source_blob": "1cb7f83ed5c76476730a252caf71900b46bf41e2"
+      "sha256": "4c80f484dc39ca76a91d4db7297767db9dad6beceff7d10a5380c6f7d11eac77",
+      "source_blob": "5fe2045d41966d12b8a954dd92abe2a486f0f6e0"
     },
     {
-      "bytes": 59238,
+      "bytes": 2665,
+      "mode": "100644",
+      "path": "ergodis/python/summarize_contextual_ab.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "b8e88a474cc09be575fb54e8828fed9d7762351fe86f340cacc690ea3028df2d",
+      "source_blob": "1d93e8b5b34a79c9a9fbc8cebeff7f46b52426c2"
+    },
+    {
+      "bytes": 65613,
       "mode": "100644",
       "path": "ergodis/python/test_algorithms.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "2cc4fa79b2657d0ae5557ad2dee54fd3c918bc46fa98765cc280646e5cb1e87b",
-      "source_blob": "33fb17ce4b737c543b5a593875082f2bf03eb098"
+      "sha256": "97f0a5ebdfc992ef69cb71b14a7e9f013022bf29de7b46fb15f6720cca268ae8",
+      "source_blob": "26c37f7d9d19ec38182ab0cce7043d662832a0ea"
     },
     {
       "bytes": 2204,
@@ -559,6 +595,24 @@
       "role": "verification",
       "sha256": "65ece2f92f196713a043bf845b41263de52f3a2082afafc3f7aeb8b347a4074f",
       "source_blob": "48efd62bb4df96a47aca895e752e239819bb77ba"
+    },
+    {
+      "bytes": 1417,
+      "mode": "100755",
+      "path": "ergodis/scripts/contextual-ab.sh",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "cd71578b8610725b4e387584bd56c413b6b27f61fa64f64fc0be8b895e849020",
+      "source_blob": "249b5cb1e9428a0e21db222647721ecb4042dcf8"
+    },
+    {
+      "bytes": 1258,
+      "mode": "100755",
+      "path": "ergodis/scripts/contextual-memory-ab.sh",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "e0be633c6415e0f20363abc0e1a4a3aade3be7d10e23b4d8c856b552aa5ba9e4",
+      "source_blob": "e6ae7437bd6a8154e942a7f69ecd4390f56de434"
     },
     {
       "bytes": 73450,
@@ -588,13 +642,13 @@
       "source_blob": "a8bf0d4c1fba57d8d5a96981a89cd1566c7b4d05"
     },
     {
-      "bytes": 46401,
+      "bytes": 53798,
       "mode": "100644",
       "path": "ergodis/src/bin/bench_kernels.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "81234ff8c53bba702b05cd579c443f422082e1e97278617895bad53ded5ee4d9",
-      "source_blob": "356bf5dae9081bdbf06ad71b56128f32415a0ad2"
+      "sha256": "282abf26932c12c7a33df42d12476fbc6c0f1a83c00b5e295538368e999f837e",
+      "source_blob": "dd252c67201c1d31c9233843d9077997c879db70"
     },
     {
       "bytes": 56481,
@@ -615,22 +669,31 @@
       "source_blob": "ec888a997e46489ef28d4e6cc65ffc54541df8b2"
     },
     {
-      "bytes": 58593,
+      "bytes": 58884,
       "mode": "100644",
       "path": "ergodis/src/composition.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "390bdd5983bf1e1c52536cd2d84709cf431f490a1d670d0042f266bbd85b18a4",
-      "source_blob": "0c3348ab1b72f3d634c25b1992ba1a6e433523f0"
+      "sha256": "9d65c06888dd7ed7afc613dbf68d3872fa71337bd4231c8469292cffa38fd4e5",
+      "source_blob": "579caf0a24f5ac30cf780eabe0278a594cc943a4"
     },
     {
-      "bytes": 16396,
+      "bytes": 23252,
       "mode": "100644",
       "path": "ergodis/src/confinement.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "41f0880007b7c88bb7d4ac59ffc5ac887be3be3c3f3e0301705ed001ce62589b",
-      "source_blob": "e0778817cd14aad578f5498ecc980af995c9365d"
+      "sha256": "a4c518a8455b1c5b5e280d4f8fbb508e4c55c86069791de8827d7e091b239297",
+      "source_blob": "a87f2132232781f0581fbaadd7f2a6f8a223728b"
+    },
+    {
+      "bytes": 47343,
+      "mode": "100644",
+      "path": "ergodis/src/contextual.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "98d743053f90076e7ff7ea984b2a05a6f2e4a83e7832649b6f4fc8ed062f260b",
+      "source_blob": "ddf86247f1c36284c8b65df63fca268dd91ff51d"
     },
     {
       "bytes": 41966,
@@ -660,13 +723,13 @@
       "source_blob": "0d403a4d8d6b1e4985ee344e7dbc9456fcf032ce"
     },
     {
-      "bytes": 2816,
+      "bytes": 3144,
       "mode": "100644",
       "path": "ergodis/src/lib.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "69056cdcb4aa3b789f351f1ba39f551b973e5550be618b3745f3b208b5964af9",
-      "source_blob": "51533308bdc556eada347c6e96408215d370e9db"
+      "sha256": "f3a883964d4850dc43396a1b26ba2dd83d2275af2ba5b761826fc1134a00d17c",
+      "source_blob": "6fc964a5dd1f6436a7422660858b87a40d8e9964"
     },
     {
       "bytes": 8280,
@@ -768,22 +831,31 @@
       "source_blob": "16ce0843832dc3d59f7facd0881cb57846dbe7f6"
     },
     {
-      "bytes": 304316,
+      "bytes": 4069,
+      "mode": "100644",
+      "path": "ergodis/tests/contextual_allocations.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "038d170917c91980c873651fb100bb3b578130b34be2152b41d13c9e6a938d1b",
+      "source_blob": "3698531008555ac932a5f82279f758e33ade7e21"
+    },
+    {
+      "bytes": 305713,
       "mode": "100644",
       "path": "ergodis/tests/fixtures/python_span_cases.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "a84c5b8193d278d05cbcbffae91f7d65e44acc0bbb1afed80fb2972b3a50b6ee",
-      "source_blob": "c68cad0c987612f8735d1e236443765224d43b30"
+      "sha256": "1a0ff8a86c77fc6c041e4e2403a26b226937e08c8a4297acf822af595718b46c",
+      "source_blob": "10053d5c662f25ec97c2943d456d38cbb2f7631b"
     },
     {
-      "bytes": 24214,
+      "bytes": 30697,
       "mode": "100644",
       "path": "ergodis/tests/python_parity.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "89ae656e1994df3d9ad80edc4f7f409d5188ea662a104fdbdae136545cc345e1",
-      "source_blob": "a5aacb684d5bb852ffd59a280418bcfc953e8ddf"
+      "sha256": "8e40bc597ae5c17b9b87c75c7fe364426fccfcca2946f8af7ebf9e857ddfaafe",
+      "source_blob": "01bd438bffa99d77ac116b55a57f5e9122dc8eee"
     },
     {
       "bytes": 2303,
