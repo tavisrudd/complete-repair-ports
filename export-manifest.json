@@ -1,5 +1,5 @@
 {
-  "content_sha256": "8ccedcc0489dee196569457f7059aea8b2174b91c084315ff20690c937467684",
+  "content_sha256": "680938e7cd28e4104b2f0fd4c4f8662d67268a5ce5f04ddb601d4ec3a0aa7c92",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "2bfca7ecfe4814d66b7d7ec1c64245c9a68085b20296c939338871242df462c4",
+      "sha256": "99f754f30456bd9454178b7526c9cea14b6a28966d00742dc86689a2648e4aeb",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "11861f79be34671d8ad1bdeee10635a368c633b3"
     },
     {
-      "bytes": 285423,
+      "bytes": 285656,
       "mode": "100644",
       "path": "complete_repair_ports.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "7a18b422f679cfe364e9801305e8c69887c054aab43b08f2d6f8db691cdc9cc7",
-      "source_blob": "f0026c183fd8f05183dd140d3ac28039dff563ec"
+      "sha256": "70d18026a5d607323e5661848b7eb4b4064cca1a1a445b8278e1f1ef7fa0157a",
+      "source_blob": "2031f22363e10837653b379821dbdfaee15e6936"
     },
     {
       "bytes": 14997,
@@ -93,13 +93,13 @@
       "source_blob": "b83d22266ac8aa2f8df2edef68082c789727841d"
     },
     {
-      "bytes": 46108,
+      "bytes": 50302,
       "mode": "100644",
       "path": "ergodis/BENCHMARKS.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "03108b288f97beb797f4805f7084c82155e6881ab4f8732365039f916d66ed5b",
-      "source_blob": "807976f86651a77d19e1ae617343f0d0ad1db00f"
+      "sha256": "5856be2585335ed4bad1c1f6931f6908a5ad5bc477c1e5ac0b9444d8410f6988",
+      "source_blob": "1d6e2c07c06c7be9989346b9cc3c6c08145eb1d7"
     },
     {
       "bytes": 21202,
@@ -120,13 +120,13 @@
       "source_blob": "8300794fa0bb5e49e1cf0bf8db40fd0006d75e70"
     },
     {
-      "bytes": 9986,
+      "bytes": 10098,
       "mode": "100644",
       "path": "ergodis/README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "5f837aa3d097f09a9e0baccc17e999c1b37a0ff7b09dfbe48d2aa2edc417eef1",
-      "source_blob": "e4fb1d5127acd45ec2140990582172ca97e14a70"
+      "sha256": "14861cf01522254de2a063e43c7abb4fe72c3134219630434dec6850d0a2d7b3",
+      "source_blob": "2ff95507db61326a8017da9a6991f4c243756ea2"
     },
     {
       "bytes": 7004,
@@ -134,8 +134,8 @@
       "path": "ergodis/SHA256SUMS",
       "rewrites": [],
       "role": "support",
-      "sha256": "b10001914ca55e170d1ad32430f0344c986e92f9eb7b6cc35ddbdfd08848fe03",
-      "source_blob": "3c937c7c08d7f4b9107f38c8985e9ea374b916b8"
+      "sha256": "2e72055706cddc09c8d23216ea813fe75ba41e1cc176cc67fe41acc599a86f55",
+      "source_blob": "a79653bf529129c83202650c2b0c6e12d39f499d"
     },
     {
       "bytes": 9668,
@@ -183,13 +183,13 @@
       "source_blob": "589237147dde0261bb3f2b8b9aa7e4fdc2fa7c17"
     },
     {
-      "bytes": 4432,
+      "bytes": 4479,
       "mode": "100644",
       "path": "ergodis/docs/benchmark-highlights.svg",
       "rewrites": [],
       "role": "figure",
-      "sha256": "7fde85c05b7d233cb86c89a811941e5c992a8a74f36e38799061c7cae25ffdf0",
-      "source_blob": "ecb1b2e84acfe6a6c9ba2f4c826ef91a8edba18e"
+      "sha256": "90ec34bcb95f612bfe51b879d09ed19703bcbb3ce1c5bba27edee5376d8b916d",
+      "source_blob": "0c36166db4ae43a9e5f6d6754797250f4d3463f6"
     },
     {
       "bytes": 4090,
@@ -201,13 +201,13 @@
       "source_blob": "1d0866ce937527417ffd135996ab597375e6b396"
     },
     {
-      "bytes": 4110,
+      "bytes": 4105,
       "mode": "100644",
       "path": "ergodis/docs/pipeline.svg",
       "rewrites": [],
       "role": "figure",
-      "sha256": "670db2eb46a5a333a2fd153bb82b653571fb9e14bbf4bcd5ee41531f0d0e1103",
-      "source_blob": "01449a5e2a9a2556f7aa33585af9b621f62a2410"
+      "sha256": "5f3808551c33e59a7acece3ea4a6ed417899d807b3dc124d486ad8cca6f9001c",
+      "source_blob": "032b21e6a8f4627fb2709b2ecc6ffdce6811b0ab"
     },
     {
       "bytes": 1355379,
@@ -786,13 +786,13 @@
       "source_blob": "a5aacb684d5bb852ffd59a280418bcfc953e8ddf"
     },
     {
-      "bytes": 1959,
+      "bytes": 2160,
       "mode": "100644",
       "path": "figures/ergodis-benchmark-highlights.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "b6e39f1e919f8a007ae41f0fa1f6d9b970805cc3671e3d8b129c9b49c97f670f",
-      "source_blob": "61d32242e574d4154606d63fff4c1f0f6dccf7f4"
+      "sha256": "4ef0dd56befc27750f1f8e2535d0692d86242864637e18da65efa6941ecb205f",
+      "source_blob": "665a63ae3864184f4937bafb90eda5caacd51df3"
     },
     {
       "bytes": 1330,
