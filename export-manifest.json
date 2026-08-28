@@ -1,5 +1,5 @@
 {
-  "content_sha256": "cd7343c42f9b04910b0c214d55683f55929db1086e89da27a2c5bcaf32de0782",
+  "content_sha256": "185e4a5c87223fa019cc00bc08821e351b44610ee84624f0bcf8905dce18c473",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "43cc177aacefe5bf9e732dd0becd5328cbe675173b6ad72424d25b9f1d6e418a",
+      "sha256": "7855e81d84a7257055c357cda5efa39a3e5684b0c8ef7ba5993db32c37e70fe5",
       "source_blob": null
     },
     {
@@ -66,22 +66,22 @@
       "source_blob": "b7b33cb5951cf6c27f9087b666460f05d2357aa0"
     },
     {
-      "bytes": 325850,
+      "bytes": 321856,
       "mode": "100644",
       "path": "compositional_recovery.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "707d76cb39c1d6015a4b71ef2f2491a12de58e2f43732f16b2924b98aaa32c23",
-      "source_blob": "526f7d32e554213af77658bd26fa9a60a404c4f1"
+      "sha256": "ad5451a80245fc200cc15552b06cb9f98749950e176c07e1061c57fc09ece970",
+      "source_blob": "1c8c0b1c23830c7e292ca60e7a3bf81ce6171e84"
     },
     {
-      "bytes": 16864,
+      "bytes": 16362,
       "mode": "100644",
       "path": "compositional_recovery.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e17025a08958f714f3cbcd1823b3c752492a710ab172f42ec22409f29ccbdd9a",
-      "source_blob": "7ccb8ede0f0e6c3c4d7d4a82755b49627a6a444c"
+      "sha256": "e4d0e1a3419d519931a47bb892531c83818b0858cbc0d95226a943134445ef78",
+      "source_blob": "ac14cd772744a2958a83e9030afd91a96513fdb8"
     },
     {
       "bytes": 9,
@@ -435,6 +435,15 @@
       "source_blob": "cbd8468caaa3de600eb7eb2c4e5b72bc2d3bff54"
     },
     {
+      "bytes": 13715,
+      "mode": "100644",
+      "path": "ergodis/python/check_observational_fixtures.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "1416858231f4566c71a4ebcff40b9a76fa1f34b3faf5ce4b566707ab7b679ba5",
+      "source_blob": "176a98273ca8712942cf918c3ea050737ff8395a"
+    },
+    {
       "bytes": 30142,
       "mode": "100644",
       "path": "ergodis/python/generate_evidence.py",
@@ -732,13 +741,13 @@
       "source_blob": "0d403a4d8d6b1e4985ee344e7dbc9456fcf032ce"
     },
     {
-      "bytes": 3144,
+      "bytes": 3187,
       "mode": "100644",
       "path": "ergodis/src/lib.rs",
       "rewrites": [],
       "role": "support",
-      "sha256": "f3a883964d4850dc43396a1b26ba2dd83d2275af2ba5b761826fc1134a00d17c",
-      "source_blob": "6fc964a5dd1f6436a7422660858b87a40d8e9964"
+      "sha256": "445d43241b30bb44f685d7f7db58c2d9a11f169b0c8bbe3327798ddb562b3d9f",
+      "source_blob": "2fde7ba94e09d89bcdd8f8e28795f7929f32b6e5"
     },
     {
       "bytes": 8280,
@@ -748,6 +757,15 @@
       "role": "support",
       "sha256": "384ef4b1a557c2dcd94103bd9be790d800639d2c5c1dd21e8d029929c10ad260",
       "source_blob": "1db1b1165a54416721f45ac0627675ee9f078041"
+    },
+    {
+      "bytes": 29767,
+      "mode": "100644",
+      "path": "ergodis/src/observational.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "2fdabf861794c068357c1a071a149587558ae83e2b251b976d1d91d7af93166b",
+      "source_blob": "948e83f07be82cfb905811b425d8b0c2a9b3e136"
     },
     {
       "bytes": 45902,
@@ -784,6 +802,15 @@
       "role": "support",
       "sha256": "faf88d3728f622d7dc429fd6d1966d910c6354e97c92af664b6af6cff6f0fc43",
       "source_blob": "60ea1f99990344638ce145d7cda68ae5a1eccf9c"
+    },
+    {
+      "bytes": 15917,
+      "mode": "100644",
+      "path": "ergodis/src/provenance.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "a549a4d8b71fc094105658619d596aa346a55fd32049b9f85820130a24d20a4b",
+      "source_blob": "103628615094a09e216441bff162f6d865a63960"
     },
     {
       "bytes": 88441,
@@ -849,6 +876,15 @@
       "source_blob": "3698531008555ac932a5f82279f758e33ade7e21"
     },
     {
+      "bytes": 2309,
+      "mode": "100644",
+      "path": "ergodis/tests/fixtures/observational_compilation.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "82c31d056a4536ac18417e0795f477f424c9324bca7432bf9415825ee5d676af",
+      "source_blob": "c371a9859da3db4926c2cc164113d8676c7fe39d"
+    },
+    {
       "bytes": 305713,
       "mode": "100644",
       "path": "ergodis/tests/fixtures/python_span_cases.json",
@@ -856,6 +892,15 @@
       "role": "verification",
       "sha256": "1a0ff8a86c77fc6c041e4e2403a26b226937e08c8a4297acf822af595718b46c",
       "source_blob": "10053d5c662f25ec97c2943d456d38cbb2f7631b"
+    },
+    {
+      "bytes": 42857,
+      "mode": "100644",
+      "path": "ergodis/tests/observational_compiler.rs",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "835279e3034e742190ab780fc9d4842d95feb6da535c421490fb275740c5d1de",
+      "source_blob": "a94ff6323b78e0ed20a58660efb63018383c3f94"
     },
     {
       "bytes": 30697,
@@ -1056,13 +1101,13 @@
       "source_blob": "fdc2dccfa833a1e9cee2c4289ab8e8f441fc0801"
     },
     {
-      "bytes": 9570,
+      "bytes": 9518,
       "mode": "100644",
       "path": "sections/02-confinement-transfer.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "102d3e997d298fb6b475072e54bfc0070f6208f56464745bce0fd756245ef202",
-      "source_blob": "864c4702b35c5498a22968c8aa335824cdec75ff"
+      "sha256": "cd80ede4b1f04bd6b9a3c6020e5a13e72d89039c922914fd5e694c1c638bec40",
+      "source_blob": "4aadc4b9beb5dab5c9220648dff7e1939b5b03ff"
     },
     {
       "bytes": 46307,
@@ -1074,13 +1119,13 @@
       "source_blob": "72d063e4aae9accdb97980134e2d69917e98b175"
     },
     {
-      "bytes": 13998,
+      "bytes": 13668,
       "mode": "100644",
       "path": "sections/03a-exact-recovery-optimization.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "aca0526c80297393998bf5bb9d2decccf549b7cdf5ec017cbde2a02b3a62a216",
-      "source_blob": "1ab485df1c9b75c431866bc09548644e240d233f"
+      "sha256": "43934bc4d453a5eb1653147253eccc4d15e09a6dd00603fa76b023e534d14604",
+      "source_blob": "864d75d79683155b2242c099b943bf3d3f13e095"
     },
     {
       "bytes": 3181,
@@ -1101,13 +1146,13 @@
       "source_blob": "dc15ac58e031988cd2ea3be9ad678d5a018ca144"
     },
     {
-      "bytes": 11721,
+      "bytes": 11286,
       "mode": "100644",
       "path": "sections/05-pointed-tutte.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "5ad008b7c8a6a13d01bbfc3f96d6d6c1a173ded1b3b1ed59dfe3418d3164f328",
-      "source_blob": "714ec0b8dc5ea603492d8b725f214ac14ecd351c"
+      "sha256": "d549896ed29e4b2c459357ff6071ed28884ad374e56fa292ed39d7f242d254ba",
+      "source_blob": "e1cea81a1e8adf1a29eba10badce5d55bb63959c"
     },
     {
       "bytes": 9049,
@@ -1128,13 +1173,13 @@
       "source_blob": "5931a9cc122bf54e5901e3ca738b229ee7d02b55"
     },
     {
-      "bytes": 4012,
+      "bytes": 1977,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "fc750ebffe9887a08bcdefe9c700f002da4f3fee27e3e1ac4e711cb772335a3f",
-      "source_blob": "efa2a25c2ff7873da5f4485dcfef58305b029321"
+      "sha256": "6cf7128ad12fbc56b707474e0676591fba0c9c41bd1c74c6d1ac80d420aae1da",
+      "source_blob": "0ebb58d9f00bf29331482bb86b2f5ca9e405d341"
     },
     {
       "bytes": 1511,
@@ -1187,8 +1232,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "7613bf4c4c2ef5f0e5b1abf9abb919a7d2f21d2333d094e77ab5673ebf1de89b",
-      "source_blob": "279bf00cedd8d8d6bf42701a002129703cad03da"
+      "sha256": "24bca6162f3fd026670fdf50c8b7ba6be83e8c3b734b59697da5dd2e0db45537",
+      "source_blob": "e18b0bf4dbaa8e6120a567e18df190d201c874f6"
     }
   ],
   "github": "tavisrudd/compositional-recovery",
