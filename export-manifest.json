@@ -1,5 +1,5 @@
 {
-  "content_sha256": "91c3115600c7a9599e3b253fc919d76e66e541f061be9c6ffb27127ab1ba38c3",
+  "content_sha256": "6d21088119ecda26734df3b285e89284252a3651d41f3be63efda212541e16b2",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "cbe2ef34bba78a8d6125d19c7da800aa5df418401457c7f15d8cf49467399e27",
+      "sha256": "d860e9555e83cc3414596ee925115a6be91feaa25afe021fae5c5a06af86e645",
       "source_blob": null
     },
     {
@@ -1209,13 +1209,13 @@
       "source_blob": "2305b0cf70df83efaba973fd7fa8bbd875c4ce55"
     },
     {
-      "bytes": 4216,
+      "bytes": 4412,
       "mode": "100644",
       "path": "verification/distribution-files.txt",
       "rewrites": [],
       "role": "verification",
-      "sha256": "6d5e4a34009b84f75fad257039ce0f2d259931342fdf0facc794b90cba3f9582",
-      "source_blob": "784379d09289d9175f4801f4982c5a69df8cdf4f"
+      "sha256": "cdcc900644fac7552972a7ead810f84dec7343aed4893fe0a5e9ab80f322c15c",
+      "source_blob": "107e2601a10b2461785a64c94e9d57885dd66fc3"
     },
     {
       "bytes": 647,
