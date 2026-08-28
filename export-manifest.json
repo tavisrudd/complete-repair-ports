@@ -1,5 +1,5 @@
 {
-  "content_sha256": "7509afff4fa2ba83c3cab4597aa2b02f85ae08ff211e09548ed3759d328e2764",
+  "content_sha256": "cd7343c42f9b04910b0c214d55683f55929db1086e89da27a2c5bcaf32de0782",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,17 +44,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "a2392de79f52f6e443a892071051e68dc11b6aed336104af4d5eca07d8f4ea69",
+      "sha256": "43cc177aacefe5bf9e732dd0becd5328cbe675173b6ad72424d25b9f1d6e418a",
       "source_blob": null
     },
     {
-      "bytes": 9191,
+      "bytes": 9551,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "d0606f4e8ed0c439b523a323947c6fb43a05d3201b743b7f7984b08509f0dbdf",
-      "source_blob": "a6c1d21fedfc3f7e1b86c6ac84a60ab22395bd7b"
+      "sha256": "055d94f8c1b39c5f5e875ac9fc9460c6e0dc4dfe2fab2a46fcf99b86af80c99e",
+      "source_blob": "287ebe00bafe8a77a58e5089b82fa69378735620"
     },
     {
       "bytes": 10530,
@@ -66,22 +66,22 @@
       "source_blob": "b7b33cb5951cf6c27f9087b666460f05d2357aa0"
     },
     {
-      "bytes": 312675,
+      "bytes": 325850,
       "mode": "100644",
       "path": "compositional_recovery.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "7d2706f0bfb8c979c7591f2aafa5365d9bd2c6fc40c1f3a772415954d6447e54",
-      "source_blob": "15b391816a6b47b1cf1f5916cc1b4b6571799257"
+      "sha256": "707d76cb39c1d6015a4b71ef2f2491a12de58e2f43732f16b2924b98aaa32c23",
+      "source_blob": "526f7d32e554213af77658bd26fa9a60a404c4f1"
     },
     {
-      "bytes": 16460,
+      "bytes": 16864,
       "mode": "100644",
       "path": "compositional_recovery.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "bea0acbf1f87d6df38921df1d97ccc7dbbaba400dd214cf9d132fa47f4cf95e0",
-      "source_blob": "072dcb931df313a9755c6873cb0ca9d640acbf00"
+      "sha256": "e17025a08958f714f3cbcd1823b3c752492a710ab172f42ec22409f29ccbdd9a",
+      "source_blob": "7ccb8ede0f0e6c3c4d7d4a82755b49627a6a444c"
     },
     {
       "bytes": 9,
@@ -1020,13 +1020,13 @@
       "source_blob": "020fde6135c7551958c8a678a13404d549952aad"
     },
     {
-      "bytes": 11398,
+      "bytes": 12442,
       "mode": "100644",
       "path": "lean/verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "43eccd9659683557c0f8a56709ee0fc5231241adddc9135ef060288bd32c077d",
-      "source_blob": "0f9daef97d579615d5014619b3cbfe6b29b923c2"
+      "sha256": "5ee96d1d02bc4d3d30ba7c844cc073677c3e8abf7ce0f5c9764c0b8ee0aea285",
+      "source_blob": "4ea2ab28a300e047fcd7339ce716e85b80d1186d"
     },
     {
       "bytes": 506,
@@ -1038,13 +1038,13 @@
       "source_blob": "9f99babb29c38138aa68c8a8eae5c1caf9b61635"
     },
     {
-      "bytes": 20205,
+      "bytes": 21111,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "52489943a5d52359ebff2d8110a5bf0ebdc243c1269f41f10a7ee05287fb11a2",
-      "source_blob": "c9245c2b9cfa87c432a8c0a3a38f3cdf9c1c8964"
+      "sha256": "c4b35f6344e3bd11c1f4b469b85bb982051143aa4cbd0ebe8bfa96987477d06a",
+      "source_blob": "f9089d4d8deb21112cb84527cad6866d6f4483a1"
     },
     {
       "bytes": 3206,
@@ -1065,13 +1065,13 @@
       "source_blob": "864c4702b35c5498a22968c8aa335824cdec75ff"
     },
     {
-      "bytes": 39585,
+      "bytes": 46307,
       "mode": "100644",
       "path": "sections/03-positive-density.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "b65d73c16956973a2add7899023dd6118491837f98563198f2e4424aa94304b5",
-      "source_blob": "d1fee8c5586484c3314dd5aa43808fa1ec0c955a"
+      "sha256": "ee0f3a02739fa23cf4c59b988fe2f1dcfef6132489419d8245821ae8014763b8",
+      "source_blob": "72d063e4aae9accdb97980134e2d69917e98b175"
     },
     {
       "bytes": 13998,
@@ -1083,13 +1083,13 @@
       "source_blob": "1ab485df1c9b75c431866bc09548644e240d233f"
     },
     {
-      "bytes": 2524,
+      "bytes": 3181,
       "mode": "100644",
       "path": "sections/03b-related-work.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "0bc08db1eac9280ccaa84d919676a9193fa419a7d719018f8844606d8acf4aa6",
-      "source_blob": "854df889647715d113902f629e290523bf6b0d8a"
+      "sha256": "e36f3a09fe72f637c4a0a29a0bf4311254f877d9e578c40de3b10a72fe993a5a",
+      "source_blob": "7bfec0a3375cd5e6c327b11a09e920758f9db4d8"
     },
     {
       "bytes": 14125,
@@ -1128,13 +1128,13 @@
       "source_blob": "5931a9cc122bf54e5901e3ca738b229ee7d02b55"
     },
     {
-      "bytes": 3706,
+      "bytes": 4012,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "77d4e4d2111aa5cdf437f4a03e589437c3c06272f612e44cf773b696fbbb2a5f",
-      "source_blob": "9fe2e56c2badf9d78bc124d10c2e70eaed0c848b"
+      "sha256": "fc750ebffe9887a08bcdefe9c700f002da4f3fee27e3e1ac4e711cb772335a3f",
+      "source_blob": "efa2a25c2ff7873da5f4485dcfef58305b029321"
     },
     {
       "bytes": 1511,
@@ -1178,8 +1178,8 @@
       "path": "verification/formal-boundary.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "5c895cc5d275b73a2cd65f6b15c25365c5dfd80fcd704ec58af91749661623c4",
-      "source_blob": "56715308eadde77322712e5c0c7f4a2481fc0121"
+      "sha256": "555f3d3cba0ffebdc9437a6530b93161764dd85a44a960058e8096562eb1b761",
+      "source_blob": "cfdf52661755c83781bb89d35eede915fa728da7"
     },
     {
       "bytes": 11895,
@@ -1187,8 +1187,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "b3d0d6c0bc580147c8355ccdd0a4d67f3b0b09a93b0525dd01622b292b4e309a",
-      "source_blob": "d6456c2a92f54c7931bd183011f2af0e44bd8a1a"
+      "sha256": "7613bf4c4c2ef5f0e5b1abf9abb919a7d2f21d2333d094e77ab5673ebf1de89b",
+      "source_blob": "279bf00cedd8d8d6bf42701a002129703cad03da"
     }
   ],
   "github": "tavisrudd/compositional-recovery",
