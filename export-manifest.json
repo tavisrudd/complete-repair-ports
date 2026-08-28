@@ -1,5 +1,5 @@
 {
-  "content_sha256": "185e4a5c87223fa019cc00bc08821e351b44610ee84624f0bcf8905dce18c473",
+  "content_sha256": "91c3115600c7a9599e3b253fc919d76e66e541f061be9c6ffb27127ab1ba38c3",
   "excluded_path_count": 5,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "7855e81d84a7257055c357cda5efa39a3e5684b0c8ef7ba5993db32c37e70fe5",
+      "sha256": "cbe2ef34bba78a8d6125d19c7da800aa5df418401457c7f15d8cf49467399e27",
       "source_blob": null
     },
     {
@@ -66,13 +66,13 @@
       "source_blob": "b7b33cb5951cf6c27f9087b666460f05d2357aa0"
     },
     {
-      "bytes": 321856,
+      "bytes": 311449,
       "mode": "100644",
       "path": "compositional_recovery.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "ad5451a80245fc200cc15552b06cb9f98749950e176c07e1061c57fc09ece970",
-      "source_blob": "1c8c0b1c23830c7e292ca60e7a3bf81ce6171e84"
+      "sha256": "0d8aae3619f2054d452387ea33149ddc494f325b6b6922778fdd76d0f3a427e5",
+      "source_blob": "c2a2207001bf3f1baeab5b0730edc7ce21711f78"
     },
     {
       "bytes": 16362,
@@ -1065,13 +1065,13 @@
       "source_blob": "020fde6135c7551958c8a678a13404d549952aad"
     },
     {
-      "bytes": 12442,
+      "bytes": 11341,
       "mode": "100644",
       "path": "lean/verification/claims.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "5ee96d1d02bc4d3d30ba7c844cc073677c3e8abf7ce0f5c9764c0b8ee0aea285",
-      "source_blob": "4ea2ab28a300e047fcd7339ce716e85b80d1186d"
+      "sha256": "b0a4be5d6b1d1d727bd628aeafef6265faa4fc994194c34228f7a1f73844c8b4",
+      "source_blob": "9cea79e06c4b8fb7350bbd6efd334e7ee65e2b49"
     },
     {
       "bytes": 506,
@@ -1101,13 +1101,13 @@
       "source_blob": "fdc2dccfa833a1e9cee2c4289ab8e8f441fc0801"
     },
     {
-      "bytes": 9518,
+      "bytes": 7449,
       "mode": "100644",
       "path": "sections/02-confinement-transfer.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "cd80ede4b1f04bd6b9a3c6020e5a13e72d89039c922914fd5e694c1c638bec40",
-      "source_blob": "4aadc4b9beb5dab5c9220648dff7e1939b5b03ff"
+      "sha256": "3f313e82de40dde47b2da190a94828bc69be0612ffb96cafa2274c465b702404",
+      "source_blob": "e417d3d7de2f158201d5c49f86c92fb0c14aa309"
     },
     {
       "bytes": 46307,
@@ -1119,13 +1119,13 @@
       "source_blob": "72d063e4aae9accdb97980134e2d69917e98b175"
     },
     {
-      "bytes": 13668,
+      "bytes": 11212,
       "mode": "100644",
       "path": "sections/03a-exact-recovery-optimization.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "43934bc4d453a5eb1653147253eccc4d15e09a6dd00603fa76b023e534d14604",
-      "source_blob": "864d75d79683155b2242c099b943bf3d3f13e095"
+      "sha256": "319338d9afb6f333bc1f5d5bff4293a8f77de1e7bdd38a7141f51d9cadd3812d",
+      "source_blob": "fdb10a21446ceb26e95942616a23a476300a45c4"
     },
     {
       "bytes": 3181,
@@ -1155,13 +1155,13 @@
       "source_blob": "e1cea81a1e8adf1a29eba10badce5d55bb63959c"
     },
     {
-      "bytes": 9049,
+      "bytes": 7527,
       "mode": "100644",
       "path": "sections/06-geometric-flagships.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "60aeaddd8b21739614d8505e0c52f3113a15d4b57bb89d9e06db1d2979b5a709",
-      "source_blob": "cb5e09c1bbf5a5e95a7150e15cbcaa61e59edbc9"
+      "sha256": "5cad6bbb550079fe7c724aea657d00abaa4722df91247bafa1ba5e7d2936e8b5",
+      "source_blob": "90996d77758c94755f954286d1a47bf1af168ad5"
     },
     {
       "bytes": 2437,
@@ -1223,8 +1223,8 @@
       "path": "verification/formal-boundary.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "555f3d3cba0ffebdc9437a6530b93161764dd85a44a960058e8096562eb1b761",
-      "source_blob": "cfdf52661755c83781bb89d35eede915fa728da7"
+      "sha256": "c4ef31bd98ae27c5b58cee576ae8f80142b1bac1bbad5c61914b7f9a191f3743",
+      "source_blob": "b54f81f16e290b4b19b000c4e81ffc5d18c39e75"
     },
     {
       "bytes": 11895,
@@ -1232,8 +1232,8 @@
       "path": "verification/verify_release.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "24bca6162f3fd026670fdf50c8b7ba6be83e8c3b734b59697da5dd2e0db45537",
-      "source_blob": "e18b0bf4dbaa8e6120a567e18df190d201c874f6"
+      "sha256": "2db0e36feff6e87cc3846de8e0d2293ee59d4ca539dd2eee75e60adeea6f0164",
+      "source_blob": "9f97bcfe153485169c8594347637bf31af23ead6"
     }
   ],
   "github": "tavisrudd/compositional-recovery",
